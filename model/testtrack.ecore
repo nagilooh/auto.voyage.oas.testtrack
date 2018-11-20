@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="testtrack" nsURI="http://www.example.org/testtrack" nsPrefix="testtrack">
+  <eClassifiers xsi:type="ecore:EClass" name="Track">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="scenarios" upperBound="-1"
+        eType="#//Scenario" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="roadsegments" upperBound="-1"
+        eType="#//RoadSegment" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="VehicleInRoadway" eSuperTypes="#//Scenario"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ReversingVehicle" eSuperTypes="#//Scenario"/>
+  <eClassifiers xsi:type="ecore:EClass" name="SpeedLimit" eSuperTypes="#//Scenario"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Intersection" eSuperTypes="#//Scenario"/>
+  <eClassifiers xsi:type="ecore:EClass" name="CarFollowing" eSuperTypes="#//Scenario"/>
+  <eClassifiers xsi:type="ecore:EClass" name="CulDeSac" eSuperTypes="#//Scenario"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PedestrianInRoad" eSuperTypes="#//Scenario"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Crosswalk" eSuperTypes="#//Scenario"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Scenario" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="roadsegments" upperBound="4"
+        eType="#//RoadSegment" eOpposite="#//RoadSegment/roadEnds">
+      <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData">
+        <details key="name" value=""/>
+      </eAnnotations>
+    </eStructuralFeatures>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="previusScenario" eType="#//Scenario"
+        eOpposite="#//Scenario/nextScenario"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="nextScenario" eType="#//Scenario"
+        eOpposite="#//Scenario/previusScenario"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="actor" eType="#//Actor"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="egoStartPosition" eType="#//Direction"
+        defaultValueLiteral="WEST"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="egoEndPosition" eType="#//Direction"
+        defaultValueLiteral="EAST"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="actionID" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RoadSegment">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lanes" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="roadEnds" lowerBound="2"
+        upperBound="2" eType="#//Scenario" eOpposite="#//Scenario/roadsegments"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="Direction">
+    <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData"/>
+    <eLiterals name="NORTH"/>
+    <eLiterals name="EAST" value="1"/>
+    <eLiterals name="SOUTH" value="2"/>
+    <eLiterals name="WEST" value="3"/>
+    <eLiterals name="NORTHEAST" value="4"/>
+    <eLiterals name="SOUTHEAST" value="5"/>
+    <eLiterals name="SOUTHWEST" value="6"/>
+    <eLiterals name="NORTHWEST" value="7"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="ActorType">
+    <eLiterals name="CAR"/>
+    <eLiterals name="BUS" value="1"/>
+    <eLiterals name="BICYCLE" value="2"/>
+    <eLiterals name="MOTORCYCLE" value="3"/>
+    <eLiterals name="GOLFCART" value="4"/>
+    <eLiterals name="PEDESTRIAN" value="5"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Actor">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" eType="#//ActorType"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="startPosition" eType="#//Direction"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="endPosition" eType="#//Direction"/>
+  </eClassifiers>
+</ecore:EPackage>
