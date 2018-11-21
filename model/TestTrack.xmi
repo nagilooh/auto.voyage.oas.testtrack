@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testtrack:TestTrack
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:testtrack="http://www.example.org/testtrack"
+    xsi:schemaLocation="http://www.example.org/testtrack testtrack.ecore">
+  <scenarios
+      name="3-way intersection">
+    <tracksegment
+        name="3-way intersection">
+      <roadsegments
+          name="west">
+        <roadcomponents
+            xsi:type="testtrack:Lane"
+            name="westIn"/>
+        <roadcomponents
+            xsi:type="testtrack:Lane"
+            name="westOut"/>
+        <roadcomponents
+            xsi:type="testtrack:Sidewalk"
+            name="left"/>
+        <roadcomponents
+            xsi:type="testtrack:Sidewalk"
+            name="right"/>
+        <signs
+            xsi:type="testtrack:Crosswalk"/>
+        <signs
+            xsi:type="testtrack:StopSign"/>
+      </roadsegments>
+      <roadsegments
+          name="east">
+        <roadcomponents
+            xsi:type="testtrack:Lane"
+            name="eastIn"/>
+        <roadcomponents
+            xsi:type="testtrack:Lane"
+            name="eastOut"/>
+        <roadcomponents
+            xsi:type="testtrack:Sidewalk"
+            name="left"/>
+        <roadcomponents
+            xsi:type="testtrack:Sidewalk"
+            name="right"/>
+        <signs
+            xsi:type="testtrack:Crosswalk"/>
+        <signs
+            xsi:type="testtrack:StopSign"/>
+      </roadsegments>
+      <roadsegments
+          name="south">
+        <roadcomponents
+            xsi:type="testtrack:Lane"
+            name="southIn"/>
+        <roadcomponents
+            xsi:type="testtrack:Lane"
+            name="southOut"/>
+        <roadcomponents
+            xsi:type="testtrack:Sidewalk"
+            name="left"/>
+        <roadcomponents
+            xsi:type="testtrack:Sidewalk"
+            name="right"/>
+        <signs
+            xsi:type="testtrack:Crosswalk"/>
+        <signs
+            xsi:type="testtrack:StopSign"/>
+        <signs
+            xsi:type="testtrack:StopSign"/>
+      </roadsegments>
+    </tracksegment>
+    <actors
+        name="Self Driving Car">
+      <action
+          startPosition="//@scenarios.0/@tracksegment/@roadsegments.0/@roadcomponents.1"
+          endPosition="//@scenarios.0/@tracksegment/@roadsegments.1/@roadcomponents.1"/>
+    </actors>
+    <actors
+        name="Other Car">
+      <action
+          startPosition="//@scenarios.0/@tracksegment/@roadsegments.2/@roadcomponents.0"
+          endPosition="//@scenarios.0/@tracksegment/@roadsegments.0/@roadcomponents.1"/>
+    </actors>
+  </scenarios>
+</testtrack:TestTrack>

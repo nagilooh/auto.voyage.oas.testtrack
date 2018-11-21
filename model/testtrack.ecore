@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="testtrack" nsURI="http://www.example.org/testtrack" nsPrefix="testtrack">
-  <eClassifiers xsi:type="ecore:EClass" name="Track">
+  <eClassifiers xsi:type="ecore:EClass" name="TestTrack">
     <eStructuralFeatures xsi:type="ecore:EReference" name="scenarios" upperBound="-1"
         eType="#//Scenario" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
@@ -11,13 +11,14 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="tracksegment" eType="#//TrackSegment"
         containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="actors" upperBound="-1"
-        eType="#//Actor"/>
+        eType="#//Actor" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="RoadSegment">
     <eStructuralFeatures xsi:type="ecore:EReference" name="roadcomponents" upperBound="-1"
         eType="#//RoadComponent" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="signs" upperBound="-1"
         eType="#//Sign" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EEnum" name="Direction">
     <eAnnotations source="http:///org/eclipse/emf/ecore/util/ExtendedMetaData"/>
@@ -40,13 +41,20 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Actor">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="type" eType="#//ActorType"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="action" eType="#//Action"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="action" upperBound="-1"
+        eType="#//Action" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="TrackSegment">
     <eStructuralFeatures xsi:type="ecore:EReference" name="roadsegments" upperBound="-1"
         eType="#//RoadSegment" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="intersection" upperBound="-1"
+        eType="#//Intersection" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="RoadComponent"/>
+  <eClassifiers xsi:type="ecore:EClass" name="RoadComponent" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Lane" eSuperTypes="#//RoadComponent">
     <eStructuralFeatures xsi:type="ecore:EReference" name="comesFrom" eType="#//Lane"
         eOpposite="#//Lane/leadsTo"/>
@@ -58,10 +66,19 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="startPosition" eType="#//RoadComponent"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="endPosition" eType="#//RoadComponent"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Sign"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Sign" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Crosswalk" eSuperTypes="#//Sign"/>
   <eClassifiers xsi:type="ecore:EClass" name="StopSign" eSuperTypes="#//Sign"/>
   <eClassifiers xsi:type="ecore:EClass" name="GiveWaySign" eSuperTypes="#//Sign"/>
   <eClassifiers xsi:type="ecore:EClass" name="DeadEnd"/>
   <eClassifiers xsi:type="ecore:EClass" name="Roundabout"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Intersection">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="lanesIn" upperBound="-1"
+        eType="#//Lane"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="lanesOut" upperBound="-1"
+        eType="#//Lane"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
 </ecore:EPackage>
