@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+<plugin>
+  <extension point="org.eclipse.sirius.componentization">
+    <component class="auto.voyage.oas.testtrack.design.Activator"
+               id="auto.voyage.oas.testtrack.design"
+	       name="testtrack">
+    </component>
+  </extension>
+</plugin>
