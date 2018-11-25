@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:testtrack="http://www.example.org/testtrack" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis xmi:id="_QM-q4PD3Eei0_uZ5QFOvng" selectedViews="_v_hSoPD7Eei09fwdGTtk-w" version="13.0.0.201804031646">
+    <semanticResources>example.testtrack</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_lkXiYPD7Eei09fwdGTtk-w">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
+    </ownedViews>
+    <ownedViews xmi:type="viewpoint:DView" xmi:id="_v_hSoPD7Eei09fwdGTtk-w">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_wpZ9IPD7Eei09fwdGTtk-w" name="new Track diagram" repPath="#_wo0uUPD7Eei09fwdGTtk-w">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']"/>
+        <target xmi:type="testtrack:TestTrack" href="example.testtrack#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram xmi:id="_wpYH8PD7Eei09fwdGTtk-w" name="new Track diagram" uid="_wo0uUPD7Eei09fwdGTtk-w">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_wpYH8fD7Eei09fwdGTtk-w" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_wpYH8vD7Eei09fwdGTtk-w"/>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_wpvUUPD7Eei09fwdGTtk-w" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_wpvUUfD7Eei09fwdGTtk-w" type="Sirius" element="_wpYH8PD7Eei09fwdGTtk-w" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_wqCPQPD7Eei09fwdGTtk-w" type="2001" element="_wpYH9PD7Eei09fwdGTtk-w">
+          <children xmi:type="notation:Node" xmi:id="_wqLZMPD7Eei09fwdGTtk-w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_wqLZMfD7Eei09fwdGTtk-w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_wqneEPD7Eei09fwdGTtk-w" type="3003" element="_wpYH9fD7Eei09fwdGTtk-w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_wqneEfD7Eei09fwdGTtk-w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wqneEvD7Eei09fwdGTtk-w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_wqCPQfD7Eei09fwdGTtk-w" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wqCPQvD7Eei09fwdGTtk-w" width="100" height="50"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_wqmP8PD7Eei09fwdGTtk-w" type="2001" element="_wpYH9vD7Eei09fwdGTtk-w">
+          <children xmi:type="notation:Node" xmi:id="_wqm3APD7Eei09fwdGTtk-w" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_wqm3AfD7Eei09fwdGTtk-w" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_wqoFIPD7Eei09fwdGTtk-w" type="3003" element="_wpYH9_D7Eei09fwdGTtk-w">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_wqoFIfD7Eei09fwdGTtk-w" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wqoFIvD7Eei09fwdGTtk-w"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_wqmP8fD7Eei09fwdGTtk-w" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wqmP8vD7Eei09fwdGTtk-w" x="160" width="100" height="50"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_wpvUUvD7Eei09fwdGTtk-w"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_wpYH9PD7Eei09fwdGTtk-w" name="3-way intersection with stop sign" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="testtrack:TrackSegment" href="example.testtrack#//@tracksegments.0"/>
+      <semanticElements xmi:type="testtrack:TrackSegment" href="example.testtrack#//@tracksegments.0"/>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_wpYH9fD7Eei09fwdGTtk-w" labelPosition="node" width="10" height="5" color="194,239,255">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@nodeMappings[name='TrackSegmentNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@nodeMappings[name='TrackSegmentNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_wpYH9vD7Eei09fwdGTtk-w" name="Road with crosswalk" width="10" height="5" resizeKind="NSEW">
+      <target xmi:type="testtrack:TrackSegment" href="example.testtrack#//@tracksegments.1"/>
+      <semanticElements xmi:type="testtrack:TrackSegment" href="example.testtrack#//@tracksegments.1"/>
+      <ownedStyle xmi:type="diagram:Square" xmi:id="_wpYH9_D7Eei09fwdGTtk-w" labelPosition="node" width="10" height="5" color="194,239,255">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@nodeMappings[name='TrackSegmentNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@nodeMappings[name='TrackSegmentNode']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_wpYH-PD7Eei09fwdGTtk-w"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer"/>
+    <target xmi:type="testtrack:TestTrack" href="example.testtrack#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

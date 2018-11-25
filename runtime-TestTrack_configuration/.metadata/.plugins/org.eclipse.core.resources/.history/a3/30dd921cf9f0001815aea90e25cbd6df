@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testtrack:TestTrack xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:testtrack="http://www.example.org/testtrack">
+  <tracksegments name="3-way intersection with stop signs">
+    <roadsegments name="3-way west">
+      <roadcomponents xsi:type="testtrack:Lane" name="3-way west in"/>
+      <roadcomponents xsi:type="testtrack:Lane" name="3-way west out"/>
+      <signs xsi:type="testtrack:StopSign"/>
+    </roadsegments>
+    <roadsegments name="3-way east">
+      <roadcomponents xsi:type="testtrack:Lane" name="3-way east in"/>
+      <roadcomponents xsi:type="testtrack:Lane" name="3-way west out"/>
+      <signs xsi:type="testtrack:StopSign"/>
+    </roadsegments>
+    <roadsegments name="3-way south">
+      <roadcomponents xsi:type="testtrack:Lane" name="3-way south in"/>
+      <roadcomponents xsi:type="testtrack:Lane" name="3-way south out"/>
+      <signs xsi:type="testtrack:StopSign"/>
+    </roadsegments>
+  </tracksegments>
+  <tracksegments name="Road with crosswalk">
+    <roadsegments>
+      <roadcomponents xsi:type="testtrack:Lane" name="road_with_crosswalk east"/>
+      <roadcomponents xsi:type="testtrack:Lane" name="road_with_crosswalk east"/>
+    </roadsegments>
+  </tracksegments>
+</testtrack:TestTrack>
