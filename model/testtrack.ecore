@@ -54,6 +54,7 @@
   <eClassifiers xsi:type="ecore:EClass" name="Action">
     <eStructuralFeatures xsi:type="ecore:EReference" name="startPosition" eType="#//RoadComponent"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="endPosition" eType="#//RoadComponent"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Sign" abstract="true">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>

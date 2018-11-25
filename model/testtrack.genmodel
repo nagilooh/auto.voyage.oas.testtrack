@@ -50,6 +50,7 @@
     <genClasses ecoreClass="testtrack.ecore#//Action">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference testtrack.ecore#//Action/startPosition"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference testtrack.ecore#//Action/endPosition"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute testtrack.ecore#//Action/name"/>
     </genClasses>
     <genClasses ecoreClass="testtrack.ecore#//Sign">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute testtrack.ecore#//Sign/name"/>
