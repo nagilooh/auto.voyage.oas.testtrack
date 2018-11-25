@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_X7ExQPDyEeiFIMKNiyncCQ" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_X7ExQfDyEeiFIMKNiyncCQ" bindingContexts="_X7N8rvDyEeiFIMKNiyncCQ">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;auto.voyage.oas.testtrack.presentation.TesttrackEditorID&quot; name=&quot;example.testtrack&quot; tooltip=&quot;auto.voyage.oas.testrack.example/example.testtrack&quot;>&#xD;&#xA;&lt;persistable path=&quot;/auto.voyage.oas.testrack.example/example.testtrack&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.sirius.editor.editorPlugin.SiriusEditorID&quot; name=&quot;testtrack.odesign&quot; tooltip=&quot;auto.voyage.oas.testtrack.design/description/testtrack.odesign&quot;>&#xD;&#xA;&lt;persistable path=&quot;/auto.voyage.oas.testtrack.design/description/testtrack.odesign&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.genericeditor.GenericEditor&quot; name=&quot;MANIFEST.MF&quot; tooltip=&quot;auto.voyage.oas.testtrack.design/META-INF/MANIFEST.MF&quot;>&#xD;&#xA;&lt;persistable path=&quot;/auto.voyage.oas.testtrack.design/META-INF/MANIFEST.MF&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.genericeditor.GenericEditor&quot; name=&quot;plugin.xml&quot; tooltip=&quot;auto.voyage.oas.testtrack.design/plugin.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/auto.voyage.oas.testtrack.design/plugin.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;auto.voyage.oas.testtrack.presentation.TesttrackEditorID&quot; name=&quot;example.testtrack&quot; tooltip=&quot;auto.voyage.oas.testtrack/example.testtrack&quot;>&#xD;&#xA;&lt;persistable path=&quot;/auto.voyage.oas.testtrack/example.testtrack&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInputFactory&quot; id=&quot;org.eclipse.sirius.diagram.ui.part.SiriusDiagramEditorID&quot; name=&quot;new Track diagram&quot; tooltip=&quot;platform:/resource/auto.voyage.oas.testrack.example/representations.aird/new Track diagram&quot;>&#xD;&#xA;&lt;persistable REP_DESC_URI=&quot;platform:/resource/auto.voyage.oas.testrack.example/representations.aird#_eAwKgPD8Eei09fwdGTtk-w&quot; SESSION_RESOURCE_URI=&quot;platform:/resource/auto.voyage.oas.testrack.example/representations.aird&quot; bundle=&quot;org.eclipse.sirius.ui&quot; class=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInput&quot; name=&quot;new Track diagram&quot; uri=&quot;platform:/resource/auto.voyage.oas.testrack.example/representations.aird#_eAwxkfD8Eei09fwdGTtk-w&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.sirius.ui.editor.session&quot; name=&quot;representations.aird&quot; tooltip=&quot;auto.voyage.oas.testrack.example/representations.aird&quot;>&#xD;&#xA;&lt;persistable path=&quot;/auto.voyage.oas.testrack.example/representations.aird&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.sirius.editor.editorPlugin.SiriusEditorID&quot; name=&quot;testtrack.odesign&quot; tooltip=&quot;auto.voyage.oas.testtrack.design/description/testtrack.odesign&quot;>&#xD;&#xA;&lt;persistable path=&quot;/auto.voyage.oas.testtrack.design/description/testtrack.odesign&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInputFactory&quot; id=&quot;org.eclipse.sirius.diagram.ui.part.SiriusDiagramEditorID&quot; name=&quot;new Track diagram&quot; tooltip=&quot;/new Track diagram&quot;>&#xD;&#xA;&lt;persistable REP_DESC_URI=&quot;platform:/resource/auto.voyage.oas.testrack.example/representations.aird#_wpZ9IPD7Eei09fwdGTtk-w&quot; SESSION_RESOURCE_URI=&quot;platform:/resource/auto.voyage.oas.testrack.example/representations.aird&quot; bundle=&quot;org.eclipse.sirius.ui&quot; class=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInput&quot; name=&quot;new Track diagram&quot; uri=&quot;#//@ownedAnnotationEntries.1/@data&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;auto.voyage.oas.testtrack.presentation.TesttrackEditorID&quot; name=&quot;example.testtrack&quot; tooltip=&quot;auto.voyage.oas.testrack.example/example.testtrack&quot;>&#xD;&#xA;&lt;persistable path=&quot;/auto.voyage.oas.testrack.example/example.testtrack&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.genericeditor.GenericEditor&quot; name=&quot;MANIFEST.MF&quot; tooltip=&quot;auto.voyage.oas.testtrack.design/META-INF/MANIFEST.MF&quot;>&#xD;&#xA;&lt;persistable path=&quot;/auto.voyage.oas.testtrack.design/META-INF/MANIFEST.MF&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.genericeditor.GenericEditor&quot; name=&quot;plugin.xml&quot; tooltip=&quot;auto.voyage.oas.testtrack.design/plugin.xml&quot;>&#xD;&#xA;&lt;persistable path=&quot;/auto.voyage.oas.testtrack.design/plugin.xml&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;auto.voyage.oas.testtrack.presentation.TesttrackEditorID&quot; name=&quot;example.testtrack&quot; tooltip=&quot;auto.voyage.oas.testtrack/example.testtrack&quot;>&#xD;&#xA;&lt;persistable path=&quot;/auto.voyage.oas.testtrack/example.testtrack&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_X7ExQfDyEeiFIMKNiyncCQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_X7ExQvDyEeiFIMKNiyncCQ" label="%trimmedwindow.label.eclipseSDK" x="0" y="0" width="976" height="1038">
@@ -130,24 +130,24 @@
           <tags>persp.newWizSC:org.eclipse.sirius.ui.specificationproject.wizard</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_X7ExV_DyEeiFIMKNiyncCQ" selectedElement="_X7ExXfDyEeiFIMKNiyncCQ" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_X7ExWPDyEeiFIMKNiyncCQ" containerData="2512" selectedElement="_X7ExWfDyEeiFIMKNiyncCQ">
-              <children xsi:type="basic:PartStack" xmi:id="_X7ExWfDyEeiFIMKNiyncCQ" elementId="org.eclipse.sirius.ui.tools.views.model.explorerMStack" containerData="5000" selectedElement="_X7ExWvDyEeiFIMKNiyncCQ">
+              <children xsi:type="basic:PartStack" xmi:id="_X7ExWfDyEeiFIMKNiyncCQ" elementId="org.eclipse.sirius.ui.tools.views.model.explorerMStack" containerData="6837" selectedElement="_X7ExWvDyEeiFIMKNiyncCQ">
                 <tags>noFocus</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_X7ExWvDyEeiFIMKNiyncCQ" elementId="org.eclipse.sirius.ui.tools.views.model.explorer" ref="_X7Eyx_DyEeiFIMKNiyncCQ" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:Sirius</tags>
                 </children>
               </children>
-              <children xsi:type="basic:PartStack" xmi:id="_X7ExW_DyEeiFIMKNiyncCQ" elementId="org.eclipse.ui.views.ContentOutlineMStack" containerData="5000" selectedElement="_X7ExXPDyEeiFIMKNiyncCQ">
+              <children xsi:type="basic:PartStack" xmi:id="_X7ExW_DyEeiFIMKNiyncCQ" elementId="org.eclipse.ui.views.ContentOutlineMStack" containerData="3163" selectedElement="_X7ExXPDyEeiFIMKNiyncCQ">
                 <children xsi:type="advanced:Placeholder" xmi:id="_X7ExXPDyEeiFIMKNiyncCQ" elementId="org.eclipse.ui.views.ContentOutline" ref="_X7EyuvDyEeiFIMKNiyncCQ" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:General</tags>
                 </children>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_X7ExXfDyEeiFIMKNiyncCQ" containerData="7488" selectedElement="_X7ExX_DyEeiFIMKNiyncCQ">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_X7ExXfDyEeiFIMKNiyncCQ" containerData="7488" selectedElement="_X7ExXvDyEeiFIMKNiyncCQ">
               <children xsi:type="advanced:Placeholder" xmi:id="_X7ExXvDyEeiFIMKNiyncCQ" elementId="org.eclipse.ui.editorss" containerData="6486" ref="_X7EysPDyEeiFIMKNiyncCQ"/>
               <children xsi:type="basic:PartStack" xmi:id="_X7ExX_DyEeiFIMKNiyncCQ" elementId="bottom" containerData="3514" selectedElement="_X7ExYPDyEeiFIMKNiyncCQ">
-                <tags>active</tags>
+                <tags>Ecore Tools</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_X7ExYPDyEeiFIMKNiyncCQ" elementId="org.eclipse.ui.views.PropertySheet" ref="_X7EzJPDyEeiFIMKNiyncCQ" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:General</tags>
@@ -159,6 +159,10 @@
                 <children xsi:type="advanced:Placeholder" xmi:id="_X7ExYvDyEeiFIMKNiyncCQ" elementId="org.eclipse.ui.views.ProblemView" ref="_X7EzM_DyEeiFIMKNiyncCQ" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:General</tags>
+                </children>
+                <children xsi:type="advanced:Placeholder" xmi:id="_0mI4cPD7Eei09fwdGTtk-w" elementId="org.eclipse.emf.ecoretools.internal.views.EReferencesView" ref="_0mIRYPD7Eei09fwdGTtk-w" closeable="true">
+                  <tags>View</tags>
+                  <tags>categoryTag:Ecore Tools</tags>
                 </children>
               </children>
             </children>
@@ -204,19 +208,28 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_X7EysPDyEeiFIMKNiyncCQ" elementId="org.eclipse.ui.editorss" selectedElement="_X7EysfDyEeiFIMKNiyncCQ">
-      <children xsi:type="basic:PartStack" xmi:id="_X7EysfDyEeiFIMKNiyncCQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_bhOmUPD3Eei0_uZ5QFOvng">
+      <children xsi:type="basic:PartStack" xmi:id="_X7EysfDyEeiFIMKNiyncCQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_CvnUkPD8Eei09fwdGTtk-w">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <children xsi:type="basic:Part" xmi:id="_3ZPEcPD2Eei0_uZ5QFOvng" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="testtrack.odesign" iconURI="platform:/plugin/org.eclipse.sirius.editor/icons/full/obj16/file_odesign.gif" closeable="true">
+        <tags>active</tags>
+        <children xsi:type="basic:Part" xmi:id="_CvnUkPD8Eei09fwdGTtk-w" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="testtrack.odesign" iconURI="platform:/plugin/org.eclipse.sirius.editor/icons/full/obj16/file_odesign.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.sirius.editor.editorPlugin.SiriusEditorID&quot; name=&quot;testtrack.odesign&quot; partName=&quot;testtrack.odesign&quot; title=&quot;testtrack.odesign&quot; tooltip=&quot;auto.voyage.oas.testtrack.design/description/testtrack.odesign&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/auto.voyage.oas.testtrack.design/description/testtrack.odesign&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.sirius.editor.editorPlugin.SiriusEditorID</tags>
           <tags>removeOnHide</tags>
+          <tags>active</tags>
+          <tags>activeOnClose</tags>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_bhOmUPD3Eei0_uZ5QFOvng" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="example.testtrack" iconURI="platform:/plugin/auto.voyage.oas.testtrack.editor/icons/full/obj16/TesttrackModelFile.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;auto.voyage.oas.testtrack.presentation.TesttrackEditorID&quot; name=&quot;example.testtrack&quot; partName=&quot;example.testtrack&quot; title=&quot;example.testtrack&quot; tooltip=&quot;auto.voyage.oas.testrack.example/example.testtrack&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/auto.voyage.oas.testrack.example/example.testtrack&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_cW-JQPD8Eei09fwdGTtk-w" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="auto.voyage.oas.testrack.example" iconURI="platform:/plugin/org.eclipse.sirius.ui.editor/icons/SiriusFile.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.sirius.ui.editor.session&quot; name=&quot;representations.aird&quot; partName=&quot;auto.voyage.oas.testrack.example&quot; title=&quot;auto.voyage.oas.testrack.example&quot; tooltip=&quot;auto.voyage.oas.testrack.example/representations.aird&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/auto.voyage.oas.testrack.example/representations.aird&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
-          <tags>auto.voyage.oas.testtrack.presentation.TesttrackEditorID</tags>
+          <tags>org.eclipse.sirius.ui.editor.session</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_-q-IgPD9Eei09fwdGTtk-w" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="new Track diagram" iconURI="platform:/plugin/org.eclipse.sirius.diagram.ui/icons/DDiagram.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.sirius.diagram.ui.part.SiriusDiagramEditorID&quot; name=&quot;new Track diagram&quot; partName=&quot;new Track diagram&quot; title=&quot;new Track diagram&quot; tooltip=&quot;platform:/resource/auto.voyage.oas.testrack.example/representations.aird/new Track diagram&quot;>&#xD;&#xA;&lt;input REP_DESC_URI=&quot;platform:/resource/auto.voyage.oas.testrack.example/representations.aird#_eAwKgPD8Eei09fwdGTtk-w&quot; SESSION_RESOURCE_URI=&quot;platform:/resource/auto.voyage.oas.testrack.example/representations.aird&quot; bundle=&quot;org.eclipse.sirius.ui&quot; class=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInput&quot; factoryID=&quot;org.eclipse.sirius.ui.business.api.session.SessionEditorInputFactory&quot; name=&quot;new Track diagram&quot; uri=&quot;platform:/resource/auto.voyage.oas.testrack.example/representations.aird#_eAwxkfD8Eei09fwdGTtk-w&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>org.eclipse.sirius.diagram.ui.part.SiriusDiagramEditorID</tags>
           <tags>removeOnHide</tags>
         </children>
       </children>
@@ -313,8 +326,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_X7EzJfDyEeiFIMKNiyncCQ" elementId="org.eclipse.ui.views.PropertySheet">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -339,6 +350,18 @@
       </menus>
       <toolbar xmi:id="_Guqy0fD2Eeiet5-5tjlCWA" elementId="org.eclipse.ui.views.ProblemView" visible="false"/>
     </sharedElements>
+    <sharedElements xsi:type="basic:Part" xmi:id="_0mIRYPD7Eei09fwdGTtk-w" elementId="org.eclipse.emf.ecoretools.internal.views.EReferencesView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="References" iconURI="platform:/plugin/org.eclipse.emf.ecoretools.ui/icons/eview16/eref_nav.gif" tooltip="" closeable="true">
+      <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.emf.ecoretools.ui"/>
+      <persistedState key="originalCompatibilityViewClass" value="org.eclipse.emf.ecoretools.ui.views.EReferencesView"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
+      <tags>View</tags>
+      <tags>categoryTag:Ecore Tools</tags>
+      <menus xmi:id="_0mRbUPD7Eei09fwdGTtk-w" elementId="org.eclipse.emf.ecoretools.internal.views.EReferencesView">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_0mRbUfD7Eei09fwdGTtk-w" elementId="org.eclipse.emf.ecoretools.internal.views.EReferencesView" visible="false"/>
+    </sharedElements>
     <trimBars xmi:id="_X7EzNPDyEeiFIMKNiyncCQ" elementId="org.eclipse.ui.main.toolbar">
       <children xsi:type="menu:ToolBar" xmi:id="_X7EzNfDyEeiFIMKNiyncCQ" elementId="group.file" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -346,7 +369,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_X7EzN_DyEeiFIMKNiyncCQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_mu51IPD2Eei0_uZ5QFOvng" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_X7OFYPDyEeiFIMKNiyncCQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_vxhPsPD3Eei09fwdGTtk-w" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_X7OFYPDyEeiFIMKNiyncCQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_X7EzRPDyEeiFIMKNiyncCQ" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -374,7 +397,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_X7Ezh_DyEeiFIMKNiyncCQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_mu-GkPD2Eei0_uZ5QFOvng" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_X7OFDPDyEeiFIMKNiyncCQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_vxlhIPD3Eei09fwdGTtk-w" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_X7OFDPDyEeiFIMKNiyncCQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_X7EzlPDyEeiFIMKNiyncCQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
