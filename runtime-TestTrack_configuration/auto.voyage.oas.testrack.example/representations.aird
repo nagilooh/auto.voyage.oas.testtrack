@@ -7,112 +7,723 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" xmi:id="_v_hSoPD7Eei09fwdGTtk-w">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_eAwKgPD8Eei09fwdGTtk-w" name="new Track diagram" repPath="#_eAtHMPD8Eei09fwdGTtk-w">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" xmi:id="_DZ1ToPFnEeiC4MOdnoaaag" name="examle2 Track diagram" repPath="#_DZul8PFnEeiC4MOdnoaaag">
         <description xmi:type="description_1:DiagramDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']"/>
         <target xmi:type="testtrack:TestTrack" href="example.testtrack#/"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
   </viewpoint:DAnalysis>
-  <diagram:DSemanticDiagram xmi:id="_eAvjcPD8Eei09fwdGTtk-w" name="new Track diagram" uid="_eAtHMPD8Eei09fwdGTtk-w">
-    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_eAvjcfD8Eei09fwdGTtk-w" source="DANNOTATION_CUSTOMIZATION_KEY">
-      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_eAvjcvD8Eei09fwdGTtk-w"/>
+  <diagram:DSemanticDiagram xmi:id="_DZ0skPFnEeiC4MOdnoaaag" name="examle2 Track diagram" uid="_DZul8PFnEeiC4MOdnoaaag">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_DZ0skfFnEeiC4MOdnoaaag" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_DZ0skvFnEeiC4MOdnoaaag"/>
     </ownedAnnotationEntries>
-    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_eAwxkPD8Eei09fwdGTtk-w" source="GMF_DIAGRAMS">
-      <data xmi:type="notation:Diagram" xmi:id="_eAwxkfD8Eei09fwdGTtk-w" type="Sirius" element="_eAvjcPD8Eei09fwdGTtk-w" measurementUnit="Pixel">
-        <children xmi:type="notation:Node" xmi:id="_eAwxk_D8Eei09fwdGTtk-w" visible="false" type="2001" element="_eAvjdPD8Eei09fwdGTtk-w">
-          <children xmi:type="notation:Node" xmi:id="_eAxYoPD8Eei09fwdGTtk-w" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_eAxYofD8Eei09fwdGTtk-w" y="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_eAx_svD8Eei09fwdGTtk-w" type="3003" element="_eAvjdfD8Eei09fwdGTtk-w">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_eAx_s_D8Eei09fwdGTtk-w" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eAx_tPD8Eei09fwdGTtk-w"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_eAwxlPD8Eei09fwdGTtk-w" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eAwxlfD8Eei09fwdGTtk-w" width="100" height="50"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_eAxYovD8Eei09fwdGTtk-w" visible="false" type="2001" element="_eAvjdvD8Eei09fwdGTtk-w">
-          <children xmi:type="notation:Node" xmi:id="_eAx_sPD8Eei09fwdGTtk-w" type="5002">
-            <layoutConstraint xmi:type="notation:Location" xmi:id="_eAx_sfD8Eei09fwdGTtk-w" y="5"/>
-          </children>
-          <children xmi:type="notation:Node" xmi:id="_eAymwPD8Eei09fwdGTtk-w" type="3003" element="_eAvjd_D8Eei09fwdGTtk-w">
-            <styles xmi:type="notation:ShapeStyle" xmi:id="_eAymwfD8Eei09fwdGTtk-w" fontName="Segoe UI"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eAymwvD8Eei09fwdGTtk-w"/>
-          </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_eAxYo_D8Eei09fwdGTtk-w" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eAxYpPD8Eei09fwdGTtk-w" x="160" width="100" height="50"/>
-        </children>
-        <children xmi:type="notation:Node" xmi:id="_BZc9cPD9Eei09fwdGTtk-w" type="2002" element="_25H1cPEAEei09fwdGTtk-w">
-          <children xmi:type="notation:Node" xmi:id="_BZdkgPD9Eei09fwdGTtk-w" type="5006"/>
-          <children xmi:type="notation:Node" xmi:id="_BZeLkPD9Eei09fwdGTtk-w" type="7001">
-            <children xmi:type="notation:Node" xmi:id="_OTdY8PEBEei09fwdGTtk-w" type="3008" element="_OTIBwPEBEei09fwdGTtk-w">
-              <children xmi:type="notation:Node" xmi:id="_OTeAAPEBEei09fwdGTtk-w" type="5005"/>
-              <children xmi:type="notation:Node" xmi:id="_OTeAAfEBEei09fwdGTtk-w" type="7002">
-                <styles xmi:type="notation:SortingStyle" xmi:id="_OTeAAvEBEei09fwdGTtk-w"/>
-                <styles xmi:type="notation:FilteringStyle" xmi:id="_OTeAA_EBEei09fwdGTtk-w"/>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_DZ1TofFnEeiC4MOdnoaaag" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_DZ1TovFnEeiC4MOdnoaaag" type="Sirius" element="_DZ0skPFnEeiC4MOdnoaaag" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_DZ1TpPFnEeiC4MOdnoaaag" type="2002" element="_DZ0slPFnEeiC4MOdnoaaag">
+          <children xmi:type="notation:Node" xmi:id="_DZ1Tp_FnEeiC4MOdnoaaag" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_DZ1TqPFnEeiC4MOdnoaaag" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_GjN_EPFqEeiC4MOdnoaaag" visible="false" type="3008" element="_Gi3ZwPFqEeiC4MOdnoaaag">
+              <children xmi:type="notation:Node" xmi:id="_GjN_E_FqEeiC4MOdnoaaag" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_GjN_FPFqEeiC4MOdnoaaag" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_GjOmMPFqEeiC4MOdnoaaag" visible="false" type="3007" element="_Gi3ZxvFqEeiC4MOdnoaaag">
+                  <children xmi:type="notation:Node" xmi:id="_GjOmM_FqEeiC4MOdnoaaag" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_GjOmNPFqEeiC4MOdnoaaag" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_GjPNMPFqEeiC4MOdnoaaag" type="3003" element="_Gi4A0PFqEeiC4MOdnoaaag">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_GjPNMfFqEeiC4MOdnoaaag" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GjPNMvFqEeiC4MOdnoaaag"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_GjOmMfFqEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GjOmMvFqEeiC4MOdnoaaag" x="7" y="96" width="150" height="60"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_GjOmNfFqEeiC4MOdnoaaag" visible="false" type="3007" element="_Gi4A0fFqEeiC4MOdnoaaag">
+                  <children xmi:type="notation:Node" xmi:id="_GjOmOPFqEeiC4MOdnoaaag" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_GjOmOfFqEeiC4MOdnoaaag" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_GjPNM_FqEeiC4MOdnoaaag" type="3003" element="_Gi4A0vFqEeiC4MOdnoaaag">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_GjPNNPFqEeiC4MOdnoaaag" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GjPNNfFqEeiC4MOdnoaaag"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_GjOmNvFqEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GjOmN_FqEeiC4MOdnoaaag" x="7" y="24" width="150" height="60"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_GjN_FfFqEeiC4MOdnoaaag"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_GjN_FvFqEeiC4MOdnoaaag"/>
               </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_OTdY8fEBEei09fwdGTtk-w" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OTdY8vEBEei09fwdGTtk-w" x="30" y="29"/>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_GjN_EfFqEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GjN_EvFqEeiC4MOdnoaaag" x="25" y="66"/>
             </children>
-            <children xmi:type="notation:Node" xmi:id="_OTeABPEBEei09fwdGTtk-w" type="3008" element="_OTIBwvEBEei09fwdGTtk-w">
-              <children xmi:type="notation:Node" xmi:id="_OTeAB_EBEei09fwdGTtk-w" type="5005"/>
-              <children xmi:type="notation:Node" xmi:id="_OTenEPEBEei09fwdGTtk-w" type="7002">
-                <styles xmi:type="notation:SortingStyle" xmi:id="_OTenEfEBEei09fwdGTtk-w"/>
-                <styles xmi:type="notation:FilteringStyle" xmi:id="_OTenEvEBEei09fwdGTtk-w"/>
+            <children xmi:type="notation:Node" xmi:id="_GjN_F_FqEeiC4MOdnoaaag" visible="false" type="3008" element="_Gi3ZwvFqEeiC4MOdnoaaag">
+              <children xmi:type="notation:Node" xmi:id="_GjOmIPFqEeiC4MOdnoaaag" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_GjOmIfFqEeiC4MOdnoaaag" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_GjPNNvFqEeiC4MOdnoaaag" visible="false" type="3007" element="_Gi4A0_FqEeiC4MOdnoaaag">
+                  <children xmi:type="notation:Node" xmi:id="_GjPNOfFqEeiC4MOdnoaaag" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_GjPNOvFqEeiC4MOdnoaaag" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_GjPNQPFqEeiC4MOdnoaaag" type="3003" element="_Gi4A1PFqEeiC4MOdnoaaag">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_GjPNQfFqEeiC4MOdnoaaag" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GjPNQvFqEeiC4MOdnoaaag"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_GjPNN_FqEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GjPNOPFqEeiC4MOdnoaaag" x="8" y="30" width="150" height="60"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_GjPNO_FqEeiC4MOdnoaaag" visible="false" type="3007" element="_Gi4A1fFqEeiC4MOdnoaaag">
+                  <children xmi:type="notation:Node" xmi:id="_GjPNPvFqEeiC4MOdnoaaag" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_GjPNP_FqEeiC4MOdnoaaag" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_GjPNQ_FqEeiC4MOdnoaaag" type="3003" element="_Gi4A1vFqEeiC4MOdnoaaag">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_GjPNRPFqEeiC4MOdnoaaag" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GjPNRfFqEeiC4MOdnoaaag"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_GjPNPPFqEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GjPNPfFqEeiC4MOdnoaaag" x="8" y="96" width="150" height="60"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_GjOmIvFqEeiC4MOdnoaaag"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_GjOmI_FqEeiC4MOdnoaaag"/>
               </children>
-              <styles xmi:type="notation:ShapeStyle" xmi:id="_OTeABfEBEei09fwdGTtk-w" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OTeABvEBEei09fwdGTtk-w" x="255" y="29"/>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_GjN_GPFqEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GjN_GfFqEeiC4MOdnoaaag" x="511" y="54"/>
             </children>
-            <styles xmi:type="notation:SortingStyle" xmi:id="_BZeLkfD9Eei09fwdGTtk-w"/>
-            <styles xmi:type="notation:FilteringStyle" xmi:id="_BZeLkvD9Eei09fwdGTtk-w"/>
+            <children xmi:type="notation:Node" xmi:id="_GjOmJPFqEeiC4MOdnoaaag" visible="false" type="3008" element="_Gi3ZxPFqEeiC4MOdnoaaag">
+              <children xmi:type="notation:Node" xmi:id="_GjOmJ_FqEeiC4MOdnoaaag" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_GjOmKPFqEeiC4MOdnoaaag" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_GjPNRvFqEeiC4MOdnoaaag" visible="false" type="3007" element="_Gi4A1_FqEeiC4MOdnoaaag">
+                  <children xmi:type="notation:Node" xmi:id="_GjP0QPFqEeiC4MOdnoaaag" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_GjP0QfFqEeiC4MOdnoaaag" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_GjP0R_FqEeiC4MOdnoaaag" type="3003" element="_Gi4A2PFqEeiC4MOdnoaaag">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_GjP0SPFqEeiC4MOdnoaaag" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GjP0SfFqEeiC4MOdnoaaag"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_GjPNR_FqEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GjPNSPFqEeiC4MOdnoaaag" x="187" y="24" width="150" height="60"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_GjP0QvFqEeiC4MOdnoaaag" visible="false" type="3007" element="_Gi4A2fFqEeiC4MOdnoaaag">
+                  <children xmi:type="notation:Node" xmi:id="_GjP0RfFqEeiC4MOdnoaaag" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_GjP0RvFqEeiC4MOdnoaaag" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_GjP0SvFqEeiC4MOdnoaaag" type="3003" element="_Gi4A2vFqEeiC4MOdnoaaag">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_GjP0S_FqEeiC4MOdnoaaag" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GjP0TPFqEeiC4MOdnoaaag"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_GjP0Q_FqEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GjP0RPFqEeiC4MOdnoaaag" x="13" y="24" width="150" height="60"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_GjOmKfFqEeiC4MOdnoaaag"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_GjOmKvFqEeiC4MOdnoaaag"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_GjOmJfFqEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GjOmJvFqEeiC4MOdnoaaag" x="187" y="300"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_GjOmK_FqEeiC4MOdnoaaag" type="3007" element="_Gi4n4PFqEeiC4MOdnoaaag">
+              <children xmi:type="notation:Node" xmi:id="_GjOmLvFqEeiC4MOdnoaaag" type="5003">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_GjOmL_FqEeiC4MOdnoaaag" y="5"/>
+              </children>
+              <children xmi:type="notation:Node" xmi:id="_GjP0TfFqEeiC4MOdnoaaag" type="3003" element="_Gi4n4fFqEeiC4MOdnoaaag">
+                <styles xmi:type="notation:ShapeStyle" xmi:id="_GjP0TvFqEeiC4MOdnoaaag" fontName="Segoe UI"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GjP0T_FqEeiC4MOdnoaaag"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_GjOmLPFqEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GjOmLfFqEeiC4MOdnoaaag" x="277" y="125" width="100" height="50"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_H8Y8APFrEeiC4MOdnoaaag" type="3008" element="_H7_6cPFrEeiC4MOdnoaaag">
+              <children xmi:type="notation:Node" xmi:id="_H8axMPFrEeiC4MOdnoaaag" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_H8axMfFrEeiC4MOdnoaaag" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_H8axQvFrEeiC4MOdnoaaag" type="3007" element="_H8AhgPFrEeiC4MOdnoaaag">
+                  <children xmi:type="notation:Node" xmi:id="_H8axRfFrEeiC4MOdnoaaag" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_H8axRvFrEeiC4MOdnoaaag" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_H8bYQPFrEeiC4MOdnoaaag" type="3003" element="_H8AhgfFrEeiC4MOdnoaaag">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_H8bYQfFrEeiC4MOdnoaaag" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H8bYQvFrEeiC4MOdnoaaag"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_H8axQ_FrEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H8axRPFrEeiC4MOdnoaaag" x="37" y="89" width="150" height="60"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_H8axR_FrEeiC4MOdnoaaag" type="3007" element="_H8AhgvFrEeiC4MOdnoaaag">
+                  <children xmi:type="notation:Node" xmi:id="_H8axSvFrEeiC4MOdnoaaag" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_H8axS_FrEeiC4MOdnoaaag" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_H8bYQ_FrEeiC4MOdnoaaag" type="3003" element="_H8Ahg_FrEeiC4MOdnoaaag">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_H8bYRPFrEeiC4MOdnoaaag" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H8bYRfFrEeiC4MOdnoaaag"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_H8axSPFrEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H8axSfFrEeiC4MOdnoaaag" x="37" y="24" width="150" height="60"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_H8axMvFrEeiC4MOdnoaaag"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_H8axM_FrEeiC4MOdnoaaag"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_H8Y8AfFrEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H8Y8AvFrEeiC4MOdnoaaag" x="31" y="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_H8axNPFrEeiC4MOdnoaaag" type="3008" element="_H7_6cvFrEeiC4MOdnoaaag">
+              <children xmi:type="notation:Node" xmi:id="_H8axN_FrEeiC4MOdnoaaag" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_H8axOPFrEeiC4MOdnoaaag" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_H8bYRvFrEeiC4MOdnoaaag" type="3007" element="_H8AhhPFrEeiC4MOdnoaaag">
+                  <children xmi:type="notation:Node" xmi:id="_H8bYSfFrEeiC4MOdnoaaag" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_H8bYSvFrEeiC4MOdnoaaag" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_H8bYUPFrEeiC4MOdnoaaag" type="3003" element="_H8AhhfFrEeiC4MOdnoaaag">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_H8bYUfFrEeiC4MOdnoaaag" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H8bYUvFrEeiC4MOdnoaaag"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_H8bYR_FrEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H8bYSPFrEeiC4MOdnoaaag" x="13" y="30" width="150" height="60"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_H8bYS_FrEeiC4MOdnoaaag" type="3007" element="_H8AhhvFrEeiC4MOdnoaaag">
+                  <children xmi:type="notation:Node" xmi:id="_H8bYTvFrEeiC4MOdnoaaag" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_H8bYT_FrEeiC4MOdnoaaag" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_H8bYU_FrEeiC4MOdnoaaag" type="3003" element="_H8Ahh_FrEeiC4MOdnoaaag">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_H8bYVPFrEeiC4MOdnoaaag" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H8bYVfFrEeiC4MOdnoaaag"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_H8bYTPFrEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H8bYTfFrEeiC4MOdnoaaag" x="13" y="96" width="150" height="60"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_H8axOfFrEeiC4MOdnoaaag"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_H8axOvFrEeiC4MOdnoaaag"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_H8axNfFrEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H8axNvFrEeiC4MOdnoaaag" x="469" y="48"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_H8axO_FrEeiC4MOdnoaaag" type="3008" element="_H7_6dPFrEeiC4MOdnoaaag">
+              <children xmi:type="notation:Node" xmi:id="_H8axPvFrEeiC4MOdnoaaag" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_H8axP_FrEeiC4MOdnoaaag" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_H8b_UPFrEeiC4MOdnoaaag" type="3007" element="_H8AhiPFrEeiC4MOdnoaaag">
+                  <children xmi:type="notation:Node" xmi:id="_H8b_U_FrEeiC4MOdnoaaag" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_H8b_VPFrEeiC4MOdnoaaag" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_H8b_WvFrEeiC4MOdnoaaag" type="3003" element="_H8AhifFrEeiC4MOdnoaaag">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_H8b_W_FrEeiC4MOdnoaaag" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H8b_XPFrEeiC4MOdnoaaag"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_H8b_UfFrEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H8b_UvFrEeiC4MOdnoaaag" x="194" y="24" width="150" height="60"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_H8b_VfFrEeiC4MOdnoaaag" type="3007" element="_H8BIkPFrEeiC4MOdnoaaag">
+                  <children xmi:type="notation:Node" xmi:id="_H8b_WPFrEeiC4MOdnoaaag" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_H8b_WfFrEeiC4MOdnoaaag" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_H8b_XfFrEeiC4MOdnoaaag" type="3003" element="_H8BIkfFrEeiC4MOdnoaaag">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_H8b_XvFrEeiC4MOdnoaaag" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H8b_X_FrEeiC4MOdnoaaag"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_H8b_VvFrEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H8b_V_FrEeiC4MOdnoaaag" x="13" y="24" width="150" height="60"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_crV3UPFrEeiC4MOdnoaaag" type="3007" element="_crAgIPFrEeiC4MOdnoaaag">
+                  <children xmi:type="notation:Node" xmi:id="_crV3U_FrEeiC4MOdnoaaag" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_crV3VPFrEeiC4MOdnoaaag" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_eRq78PFrEeiC4MOdnoaaag" type="3003" element="_eRWL0PFrEeiC4MOdnoaaag">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_eRq78fFrEeiC4MOdnoaaag" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eRq78vFrEeiC4MOdnoaaag"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_crV3UfFrEeiC4MOdnoaaag" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_crV3UvFrEeiC4MOdnoaaag" x="361" y="27" width="122" height="53"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_H8axQPFrEeiC4MOdnoaaag"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_H8axQfFrEeiC4MOdnoaaag"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_H8axPPFrEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H8axPfFrEeiC4MOdnoaaag" x="91" y="246" width="501" height="111"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_DZ1TqfFnEeiC4MOdnoaaag"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_DZ1TqvFnEeiC4MOdnoaaag"/>
           </children>
-          <styles xmi:type="notation:ShapeStyle" xmi:id="_BZc9cfD9Eei09fwdGTtk-w" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BZc9cvD9Eei09fwdGTtk-w"/>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_DZ1TpfFnEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DZ1TpvFnEeiC4MOdnoaaag" x="42" y="36"/>
         </children>
-        <styles xmi:type="notation:DiagramStyle" xmi:id="_eAwxkvD8Eei09fwdGTtk-w"/>
+        <children xmi:type="notation:Node" xmi:id="_DZ16sPFnEeiC4MOdnoaaag" type="2002" element="_DZ0sqvFnEeiC4MOdnoaaag">
+          <children xmi:type="notation:Node" xmi:id="_DZ16s_FnEeiC4MOdnoaaag" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_DZ16tPFnEeiC4MOdnoaaag" type="7001">
+            <children xmi:type="notation:Node" xmi:id="_GjP0UPFqEeiC4MOdnoaaag" visible="false" type="3008" element="_Gi4n4vFqEeiC4MOdnoaaag">
+              <children xmi:type="notation:Node" xmi:id="_GjP0U_FqEeiC4MOdnoaaag" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_GjP0VPFqEeiC4MOdnoaaag" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_GjP0V_FqEeiC4MOdnoaaag" visible="false" type="3007" element="_Gi4n5PFqEeiC4MOdnoaaag">
+                  <children xmi:type="notation:Node" xmi:id="_GjQbUPFqEeiC4MOdnoaaag" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_GjQbUfFqEeiC4MOdnoaaag" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_GjRCYPFqEeiC4MOdnoaaag" type="3003" element="_Gi4n5fFqEeiC4MOdnoaaag">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_GjRCYfFqEeiC4MOdnoaaag" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GjRCYvFqEeiC4MOdnoaaag"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_GjP0WPFqEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GjP0WfFqEeiC4MOdnoaaag" x="19" y="162" width="150" height="60"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_GjQbUvFqEeiC4MOdnoaaag" visible="false" type="3007" element="_Gi4n5vFqEeiC4MOdnoaaag">
+                  <children xmi:type="notation:Node" xmi:id="_GjQbVfFqEeiC4MOdnoaaag" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_GjQbVvFqEeiC4MOdnoaaag" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_GjRCY_FqEeiC4MOdnoaaag" type="3003" element="_Gi4n5_FqEeiC4MOdnoaaag">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_GjRCZPFqEeiC4MOdnoaaag" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GjRCZfFqEeiC4MOdnoaaag"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_GjQbU_FqEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GjQbVPFqEeiC4MOdnoaaag" x="19" y="96" width="150" height="60"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_GjQbV_FqEeiC4MOdnoaaag" visible="false" type="3007" element="_Gi4n6PFqEeiC4MOdnoaaag">
+                  <children xmi:type="notation:Node" xmi:id="_GjQbWvFqEeiC4MOdnoaaag" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_GjQbW_FqEeiC4MOdnoaaag" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_GjRCZvFqEeiC4MOdnoaaag" type="3003" element="_Gi4n6fFqEeiC4MOdnoaaag">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_GjRCZ_FqEeiC4MOdnoaaag" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GjRCaPFqEeiC4MOdnoaaag"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_GjQbWPFqEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GjQbWfFqEeiC4MOdnoaaag" x="19" y="228" width="150" height="60"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_GjQbXPFqEeiC4MOdnoaaag" visible="false" type="3007" element="_Gi4n6vFqEeiC4MOdnoaaag">
+                  <children xmi:type="notation:Node" xmi:id="_GjQbX_FqEeiC4MOdnoaaag" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_GjQbYPFqEeiC4MOdnoaaag" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_GjRCafFqEeiC4MOdnoaaag" type="3003" element="_Gi4n6_FqEeiC4MOdnoaaag">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_GjRCavFqEeiC4MOdnoaaag" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GjRCa_FqEeiC4MOdnoaaag"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_GjQbXfFqEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GjQbXvFqEeiC4MOdnoaaag" x="19" y="30" width="150" height="60"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_GjP0VfFqEeiC4MOdnoaaag"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_GjP0VvFqEeiC4MOdnoaaag"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_GjP0UfFqEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GjP0UvFqEeiC4MOdnoaaag" x="31" y="30"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_H8b_YPFrEeiC4MOdnoaaag" type="3008" element="_H8BIkvFrEeiC4MOdnoaaag">
+              <children xmi:type="notation:Node" xmi:id="_H8b_Y_FrEeiC4MOdnoaaag" type="5005"/>
+              <children xmi:type="notation:Node" xmi:id="_H8b_ZPFrEeiC4MOdnoaaag" type="7002">
+                <children xmi:type="notation:Node" xmi:id="_H8cmYPFrEeiC4MOdnoaaag" type="3007" element="_H8BIlPFrEeiC4MOdnoaaag">
+                  <children xmi:type="notation:Node" xmi:id="_H8cmY_FrEeiC4MOdnoaaag" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_H8cmZPFrEeiC4MOdnoaaag" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_H8cmdPFrEeiC4MOdnoaaag" type="3003" element="_H8BIlfFrEeiC4MOdnoaaag">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_H8cmdfFrEeiC4MOdnoaaag" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H8cmdvFrEeiC4MOdnoaaag"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_H8cmYfFrEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H8cmYvFrEeiC4MOdnoaaag" x="7" y="150" width="150" height="60"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_H8cmZfFrEeiC4MOdnoaaag" type="3007" element="_H8BIlvFrEeiC4MOdnoaaag">
+                  <children xmi:type="notation:Node" xmi:id="_H8cmaPFrEeiC4MOdnoaaag" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_H8cmafFrEeiC4MOdnoaaag" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_H8cmd_FrEeiC4MOdnoaaag" type="3003" element="_H8BIl_FrEeiC4MOdnoaaag">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_H8cmePFrEeiC4MOdnoaaag" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H8cmefFrEeiC4MOdnoaaag"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_H8cmZvFrEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H8cmZ_FrEeiC4MOdnoaaag" x="7" y="84" width="150" height="60"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_H8cmavFrEeiC4MOdnoaaag" type="3007" element="_H8BImPFrEeiC4MOdnoaaag">
+                  <children xmi:type="notation:Node" xmi:id="_H8cmbfFrEeiC4MOdnoaaag" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_H8cmbvFrEeiC4MOdnoaaag" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_H8cmevFrEeiC4MOdnoaaag" type="3003" element="_H8BvoPFrEeiC4MOdnoaaag">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_H8cme_FrEeiC4MOdnoaaag" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H8cmfPFrEeiC4MOdnoaaag"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_H8cma_FrEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H8cmbPFrEeiC4MOdnoaaag" x="7" y="216" width="150" height="60"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_H8cmb_FrEeiC4MOdnoaaag" type="3007" element="_H8BvofFrEeiC4MOdnoaaag">
+                  <children xmi:type="notation:Node" xmi:id="_H8cmcvFrEeiC4MOdnoaaag" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_H8cmc_FrEeiC4MOdnoaaag" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_H8dNcPFrEeiC4MOdnoaaag" type="3003" element="_H8BvovFrEeiC4MOdnoaaag">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_H8dNcfFrEeiC4MOdnoaaag" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H8dNcvFrEeiC4MOdnoaaag"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_H8cmcPFrEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H8cmcfFrEeiC4MOdnoaaag" x="7" y="18" width="150" height="60"/>
+                </children>
+                <children xmi:type="notation:Node" xmi:id="_crYTkPFrEeiC4MOdnoaaag" type="3007" element="_crAgIfFrEeiC4MOdnoaaag">
+                  <children xmi:type="notation:Node" xmi:id="_crYTk_FrEeiC4MOdnoaaag" type="5003">
+                    <layoutConstraint xmi:type="notation:Location" xmi:id="_crYTlPFrEeiC4MOdnoaaag" y="5"/>
+                  </children>
+                  <children xmi:type="notation:Node" xmi:id="_eRrjAPFrEeiC4MOdnoaaag" type="3003" element="_eRWL0fFrEeiC4MOdnoaaag">
+                    <styles xmi:type="notation:ShapeStyle" xmi:id="_eRrjAfFrEeiC4MOdnoaaag" fontName="Segoe UI"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eRrjAvFrEeiC4MOdnoaaag"/>
+                  </children>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_crYTkfFrEeiC4MOdnoaaag" fontName="Segoe UI"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_crYTkvFrEeiC4MOdnoaaag" x="9" y="294" width="146" height="55"/>
+                </children>
+                <styles xmi:type="notation:SortingStyle" xmi:id="_H8b_ZfFrEeiC4MOdnoaaag"/>
+                <styles xmi:type="notation:FilteringStyle" xmi:id="_H8b_ZvFrEeiC4MOdnoaaag"/>
+              </children>
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_H8b_YfFrEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H8b_YvFrEeiC4MOdnoaaag" x="31" y="30" width="189" height="369"/>
+            </children>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_DZ16tfFnEeiC4MOdnoaaag"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_DZ16tvFnEeiC4MOdnoaaag"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_DZ16sfFnEeiC4MOdnoaaag" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DZ16svFnEeiC4MOdnoaaag" x="894" y="54"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_DZ1To_FnEeiC4MOdnoaaag"/>
       </data>
     </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_eAvjdPD8Eei09fwdGTtk-w" name="3-way intersection with stop sign" visible="false" width="10" height="5" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_DZ0slPFnEeiC4MOdnoaaag" name="Track Segment 3-way intersection with stop sign">
       <target xmi:type="testtrack:TrackSegment" href="example.testtrack#//@tracksegments.0"/>
       <semanticElements xmi:type="testtrack:TrackSegment" href="example.testtrack#//@tracksegments.0"/>
-      <ownedStyle xmi:type="diagram:Square" xmi:id="_eAvjdfD8Eei09fwdGTtk-w" labelPosition="node" width="10" height="5" color="194,239,255">
-        <description xmi:type="style:SquareDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@nodeMappings[name='TrackSegmentNode']/@style"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_DZ0slfFnEeiC4MOdnoaaag" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@nodeMappings[name='TrackSegmentNode']"/>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_Gi3ZwPFqEeiC4MOdnoaaag" name="3-way west" visible="false">
+        <target xmi:type="testtrack:RoadSegment" href="example.testtrack#//@tracksegments.0/@roadsegments.0"/>
+        <semanticElements xmi:type="testtrack:RoadSegment" href="example.testtrack#//@tracksegments.0/@roadsegments.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_Gi3ZwfFqEeiC4MOdnoaaag" borderSize="1" borderSizeComputationExpression="1">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadComponentContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadComponentContainer']"/>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Gi3ZxvFqEeiC4MOdnoaaag" name="3-way west in" visible="false" width="15" height="6" resizeKind="NSEW">
+          <target xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.0/@roadsegments.0/@roadcomponents.0"/>
+          <semanticElements xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.0/@roadsegments.0/@roadcomponents.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_Gi4A0PFqEeiC4MOdnoaaag" labelPosition="node" width="15" height="6">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadComponentContainer']/@subNodeMappings[name='RoadComponentNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadComponentContainer']/@subNodeMappings[name='RoadComponentNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Gi4A0fFqEeiC4MOdnoaaag" name="3-way west out" visible="false" width="15" height="6" resizeKind="NSEW">
+          <target xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.0/@roadsegments.0/@roadcomponents.1"/>
+          <semanticElements xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.0/@roadsegments.0/@roadcomponents.1"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_Gi4A0vFqEeiC4MOdnoaaag" labelPosition="node" width="15" height="6">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadComponentContainer']/@subNodeMappings[name='RoadComponentNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadComponentContainer']/@subNodeMappings[name='RoadComponentNode']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_Gi3ZwvFqEeiC4MOdnoaaag" name="3-way east" visible="false">
+        <target xmi:type="testtrack:RoadSegment" href="example.testtrack#//@tracksegments.0/@roadsegments.1"/>
+        <semanticElements xmi:type="testtrack:RoadSegment" href="example.testtrack#//@tracksegments.0/@roadsegments.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_Gi3Zw_FqEeiC4MOdnoaaag" borderSize="1" borderSizeComputationExpression="1">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadComponentContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadComponentContainer']"/>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Gi4A0_FqEeiC4MOdnoaaag" name="3-way east in" visible="false" width="15" height="6" resizeKind="NSEW">
+          <target xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.0/@roadsegments.1/@roadcomponents.0"/>
+          <semanticElements xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.0/@roadsegments.1/@roadcomponents.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_Gi4A1PFqEeiC4MOdnoaaag" labelPosition="node" width="15" height="6">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadComponentContainer']/@subNodeMappings[name='RoadComponentNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadComponentContainer']/@subNodeMappings[name='RoadComponentNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Gi4A1fFqEeiC4MOdnoaaag" name="3-way east out" visible="false" width="15" height="6" resizeKind="NSEW">
+          <target xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.0/@roadsegments.1/@roadcomponents.1"/>
+          <semanticElements xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.0/@roadsegments.1/@roadcomponents.1"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_Gi4A1vFqEeiC4MOdnoaaag" labelPosition="node" width="15" height="6">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadComponentContainer']/@subNodeMappings[name='RoadComponentNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadComponentContainer']/@subNodeMappings[name='RoadComponentNode']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_Gi3ZxPFqEeiC4MOdnoaaag" name="3-way south" visible="false">
+        <target xmi:type="testtrack:RoadSegment" href="example.testtrack#//@tracksegments.0/@roadsegments.2"/>
+        <semanticElements xmi:type="testtrack:RoadSegment" href="example.testtrack#//@tracksegments.0/@roadsegments.2"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_Gi3ZxfFqEeiC4MOdnoaaag" borderSize="1" borderSizeComputationExpression="1">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadComponentContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadComponentContainer']"/>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Gi4A1_FqEeiC4MOdnoaaag" name="3-way south in" visible="false" width="15" height="6" resizeKind="NSEW">
+          <target xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.0/@roadsegments.2/@roadcomponents.0"/>
+          <semanticElements xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.0/@roadsegments.2/@roadcomponents.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_Gi4A2PFqEeiC4MOdnoaaag" labelPosition="node" width="15" height="6">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadComponentContainer']/@subNodeMappings[name='RoadComponentNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadComponentContainer']/@subNodeMappings[name='RoadComponentNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Gi4A2fFqEeiC4MOdnoaaag" name="3-way south out" visible="false" width="15" height="6" resizeKind="NSEW">
+          <target xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.0/@roadsegments.2/@roadcomponents.1"/>
+          <semanticElements xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.0/@roadsegments.2/@roadcomponents.1"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_Gi4A2vFqEeiC4MOdnoaaag" labelPosition="node" width="15" height="6">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadComponentContainer']/@subNodeMappings[name='RoadComponentNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadComponentContainer']/@subNodeMappings[name='RoadComponentNode']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Gi4n4PFqEeiC4MOdnoaaag" name="3-way intersection" width="10" height="5" resizeKind="NSEW">
+        <target xmi:type="testtrack:Intersection" href="example.testtrack#//@tracksegments.0/@intersection.0"/>
+        <semanticElements xmi:type="testtrack:Intersection" href="example.testtrack#//@tracksegments.0/@intersection.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:Square" xmi:id="_Gi4n4fFqEeiC4MOdnoaaag" labelPosition="node" width="10" height="5">
+          <description xmi:type="style:SquareDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subNodeMappings[name='IntersectionNode']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subNodeMappings[name='IntersectionNode']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_H7_6cPFrEeiC4MOdnoaaag" name="3-way west">
+        <target xmi:type="testtrack:RoadSegment" href="example.testtrack#//@tracksegments.0/@roadsegments.0"/>
+        <semanticElements xmi:type="testtrack:RoadSegment" href="example.testtrack#//@tracksegments.0/@roadsegments.0"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_H7_6cfFrEeiC4MOdnoaaag" borderSize="1" borderSizeComputationExpression="1">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']"/>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_H8AhgPFrEeiC4MOdnoaaag" name="3-way west in" width="15" height="6" resizeKind="NSEW">
+          <target xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.0/@roadsegments.0/@roadcomponents.0"/>
+          <semanticElements xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.0/@roadsegments.0/@roadcomponents.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_H8AhgfFrEeiC4MOdnoaaag" labelPosition="node" width="15" height="6">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='RoadComponentNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='RoadComponentNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_H8AhgvFrEeiC4MOdnoaaag" name="3-way west out" width="15" height="6" resizeKind="NSEW">
+          <target xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.0/@roadsegments.0/@roadcomponents.1"/>
+          <semanticElements xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.0/@roadsegments.0/@roadcomponents.1"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_H8Ahg_FrEeiC4MOdnoaaag" labelPosition="node" width="15" height="6">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='RoadComponentNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='RoadComponentNode']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_H7_6cvFrEeiC4MOdnoaaag" name="3-way east">
+        <target xmi:type="testtrack:RoadSegment" href="example.testtrack#//@tracksegments.0/@roadsegments.1"/>
+        <semanticElements xmi:type="testtrack:RoadSegment" href="example.testtrack#//@tracksegments.0/@roadsegments.1"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_H7_6c_FrEeiC4MOdnoaaag" borderSize="1" borderSizeComputationExpression="1">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']"/>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_H8AhhPFrEeiC4MOdnoaaag" name="3-way east in" width="15" height="6" resizeKind="NSEW">
+          <target xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.0/@roadsegments.1/@roadcomponents.0"/>
+          <semanticElements xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.0/@roadsegments.1/@roadcomponents.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_H8AhhfFrEeiC4MOdnoaaag" labelPosition="node" width="15" height="6">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='RoadComponentNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='RoadComponentNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_H8AhhvFrEeiC4MOdnoaaag" name="3-way east out" width="15" height="6" resizeKind="NSEW">
+          <target xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.0/@roadsegments.1/@roadcomponents.1"/>
+          <semanticElements xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.0/@roadsegments.1/@roadcomponents.1"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_H8Ahh_FrEeiC4MOdnoaaag" labelPosition="node" width="15" height="6">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='RoadComponentNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='RoadComponentNode']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_H7_6dPFrEeiC4MOdnoaaag" name="3-way south">
+        <target xmi:type="testtrack:RoadSegment" href="example.testtrack#//@tracksegments.0/@roadsegments.2"/>
+        <semanticElements xmi:type="testtrack:RoadSegment" href="example.testtrack#//@tracksegments.0/@roadsegments.2"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_H7_6dfFrEeiC4MOdnoaaag" borderSize="1" borderSizeComputationExpression="1">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']"/>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_H8AhiPFrEeiC4MOdnoaaag" name="3-way south in" width="15" height="6" resizeKind="NSEW">
+          <target xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.0/@roadsegments.2/@roadcomponents.0"/>
+          <semanticElements xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.0/@roadsegments.2/@roadcomponents.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_H8AhifFrEeiC4MOdnoaaag" labelPosition="node" width="15" height="6">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='RoadComponentNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='RoadComponentNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_H8BIkPFrEeiC4MOdnoaaag" name="3-way south out" width="15" height="6" resizeKind="NSEW">
+          <target xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.0/@roadsegments.2/@roadcomponents.1"/>
+          <semanticElements xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.0/@roadsegments.2/@roadcomponents.1"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_H8BIkfFrEeiC4MOdnoaaag" labelPosition="node" width="15" height="6">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='RoadComponentNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='RoadComponentNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_crAgIPFrEeiC4MOdnoaaag" name="Stop sign" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="testtrack:StopSign" href="example.testtrack#//@tracksegments.0/@roadsegments.2/@signs.0"/>
+          <semanticElements xmi:type="testtrack:StopSign" href="example.testtrack#//@tracksegments.0/@roadsegments.2/@signs.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_eRWL0PFrEeiC4MOdnoaaag" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='SignNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='SignNode']"/>
+        </ownedDiagramElements>
+      </ownedDiagramElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_eAvjdvD8Eei09fwdGTtk-w" name="Road with crosswalk" visible="false" width="10" height="5" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_DZ0sqvFnEeiC4MOdnoaaag" name="Road with crosswalk">
       <target xmi:type="testtrack:TrackSegment" href="example.testtrack#//@tracksegments.1"/>
       <semanticElements xmi:type="testtrack:TrackSegment" href="example.testtrack#//@tracksegments.1"/>
-      <ownedStyle xmi:type="diagram:Square" xmi:id="_eAvjd_D8Eei09fwdGTtk-w" labelPosition="node" width="10" height="5" color="194,239,255">
-        <description xmi:type="style:SquareDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@nodeMappings[name='TrackSegmentNode']/@style"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_DZ0sq_FnEeiC4MOdnoaaag" borderSize="1" borderSizeComputationExpression="1">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@style"/>
       </ownedStyle>
-      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@nodeMappings[name='TrackSegmentNode']"/>
-    </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_25H1cPEAEei09fwdGTtk-w" name="Example Track">
-      <target xmi:type="testtrack:TestTrack" href="example.testtrack#/"/>
-      <semanticElements xmi:type="testtrack:TestTrack" href="example.testtrack#/"/>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_25IcgPEAEei09fwdGTtk-w" borderSize="1" borderSizeComputationExpression="1">
-        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackContainer']/@style"/>
-      </ownedStyle>
-      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackContainer']"/>
-      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_OTIBwPEBEei09fwdGTtk-w" name="3-way intersection with stop sign">
-        <target xmi:type="testtrack:TrackSegment" href="example.testtrack#//@tracksegments.0"/>
-        <semanticElements xmi:type="testtrack:TrackSegment" href="example.testtrack#//@tracksegments.0"/>
-        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_OTIBwfEBEei09fwdGTtk-w" borderSize="1" borderSizeComputationExpression="1" backgroundColor="194,239,255" foregroundColor="39,76,114">
-          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackContainer']/@subContainerMappings[name='TrackSegmentContainer']/@style"/>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_Gi4n4vFqEeiC4MOdnoaaag" name="Straight road" visible="false">
+        <target xmi:type="testtrack:RoadSegment" href="example.testtrack#//@tracksegments.1/@roadsegments.0"/>
+        <semanticElements xmi:type="testtrack:RoadSegment" href="example.testtrack#//@tracksegments.1/@roadsegments.0"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_Gi4n4_FqEeiC4MOdnoaaag" borderSize="1" borderSizeComputationExpression="1">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadComponentContainer']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackContainer']/@subContainerMappings[name='TrackSegmentContainer']"/>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadComponentContainer']"/>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Gi4n5PFqEeiC4MOdnoaaag" name="road_with_crosswalk east lane" visible="false" width="15" height="6" resizeKind="NSEW">
+          <target xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.1/@roadsegments.0/@roadcomponents.0"/>
+          <semanticElements xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.1/@roadsegments.0/@roadcomponents.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_Gi4n5fFqEeiC4MOdnoaaag" labelPosition="node" width="15" height="6">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadComponentContainer']/@subNodeMappings[name='RoadComponentNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadComponentContainer']/@subNodeMappings[name='RoadComponentNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Gi4n5vFqEeiC4MOdnoaaag" name="road_with_crosswalk west lane" visible="false" width="15" height="6" resizeKind="NSEW">
+          <target xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.1/@roadsegments.0/@roadcomponents.1"/>
+          <semanticElements xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.1/@roadsegments.0/@roadcomponents.1"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_Gi4n5_FqEeiC4MOdnoaaag" labelPosition="node" width="15" height="6">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadComponentContainer']/@subNodeMappings[name='RoadComponentNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadComponentContainer']/@subNodeMappings[name='RoadComponentNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Gi4n6PFqEeiC4MOdnoaaag" name="road_with_crosswalk east sidewalk" visible="false" width="15" height="6" resizeKind="NSEW">
+          <target xmi:type="testtrack:Sidewalk" href="example.testtrack#//@tracksegments.1/@roadsegments.0/@roadcomponents.2"/>
+          <semanticElements xmi:type="testtrack:Sidewalk" href="example.testtrack#//@tracksegments.1/@roadsegments.0/@roadcomponents.2"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_Gi4n6fFqEeiC4MOdnoaaag" labelPosition="node" width="15" height="6">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadComponentContainer']/@subNodeMappings[name='RoadComponentNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadComponentContainer']/@subNodeMappings[name='RoadComponentNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_Gi4n6vFqEeiC4MOdnoaaag" name="road_with_crosswalk west sidewalk" visible="false" width="15" height="6" resizeKind="NSEW">
+          <target xmi:type="testtrack:Sidewalk" href="example.testtrack#//@tracksegments.1/@roadsegments.0/@roadcomponents.3"/>
+          <semanticElements xmi:type="testtrack:Sidewalk" href="example.testtrack#//@tracksegments.1/@roadsegments.0/@roadcomponents.3"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_Gi4n6_FqEeiC4MOdnoaaag" labelPosition="node" width="15" height="6">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadComponentContainer']/@subNodeMappings[name='RoadComponentNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadComponentContainer']/@subNodeMappings[name='RoadComponentNode']"/>
+        </ownedDiagramElements>
       </ownedDiagramElements>
-      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_OTIBwvEBEei09fwdGTtk-w" name="Road with crosswalk">
-        <target xmi:type="testtrack:TrackSegment" href="example.testtrack#//@tracksegments.1"/>
-        <semanticElements xmi:type="testtrack:TrackSegment" href="example.testtrack#//@tracksegments.1"/>
-        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_OTIBw_EBEei09fwdGTtk-w" borderSize="1" borderSizeComputationExpression="1" backgroundColor="194,239,255" foregroundColor="39,76,114">
-          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackContainer']/@subContainerMappings[name='TrackSegmentContainer']/@style"/>
+      <ownedDiagramElements xmi:type="diagram:DNodeContainer" xmi:id="_H8BIkvFrEeiC4MOdnoaaag" name="Straight road">
+        <target xmi:type="testtrack:RoadSegment" href="example.testtrack#//@tracksegments.1/@roadsegments.0"/>
+        <semanticElements xmi:type="testtrack:RoadSegment" href="example.testtrack#//@tracksegments.1/@roadsegments.0"/>
+        <ownedStyle xmi:type="diagram:FlatContainerStyle" xmi:id="_H8BIk_FrEeiC4MOdnoaaag" borderSize="1" borderSizeComputationExpression="1">
+          <description xmi:type="style:FlatContainerStyleDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackContainer']/@subContainerMappings[name='TrackSegmentContainer']"/>
+        <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']"/>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_H8BIlPFrEeiC4MOdnoaaag" name="road_with_crosswalk east lane" width="15" height="6" resizeKind="NSEW">
+          <target xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.1/@roadsegments.0/@roadcomponents.0"/>
+          <semanticElements xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.1/@roadsegments.0/@roadcomponents.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_H8BIlfFrEeiC4MOdnoaaag" labelPosition="node" width="15" height="6">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='RoadComponentNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='RoadComponentNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_H8BIlvFrEeiC4MOdnoaaag" name="road_with_crosswalk west lane" width="15" height="6" resizeKind="NSEW">
+          <target xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.1/@roadsegments.0/@roadcomponents.1"/>
+          <semanticElements xmi:type="testtrack:Lane" href="example.testtrack#//@tracksegments.1/@roadsegments.0/@roadcomponents.1"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_H8BIl_FrEeiC4MOdnoaaag" labelPosition="node" width="15" height="6">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='RoadComponentNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='RoadComponentNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_H8BImPFrEeiC4MOdnoaaag" name="road_with_crosswalk east sidewalk" width="15" height="6" resizeKind="NSEW">
+          <target xmi:type="testtrack:Sidewalk" href="example.testtrack#//@tracksegments.1/@roadsegments.0/@roadcomponents.2"/>
+          <semanticElements xmi:type="testtrack:Sidewalk" href="example.testtrack#//@tracksegments.1/@roadsegments.0/@roadcomponents.2"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_H8BvoPFrEeiC4MOdnoaaag" labelPosition="node" width="15" height="6">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='RoadComponentNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='RoadComponentNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_H8BvofFrEeiC4MOdnoaaag" name="road_with_crosswalk west sidewalk" width="15" height="6" resizeKind="NSEW">
+          <target xmi:type="testtrack:Sidewalk" href="example.testtrack#//@tracksegments.1/@roadsegments.0/@roadcomponents.3"/>
+          <semanticElements xmi:type="testtrack:Sidewalk" href="example.testtrack#//@tracksegments.1/@roadsegments.0/@roadcomponents.3"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_H8BvovFrEeiC4MOdnoaaag" labelPosition="node" width="15" height="6">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='RoadComponentNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='RoadComponentNode']"/>
+        </ownedDiagramElements>
+        <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_crAgIfFrEeiC4MOdnoaaag" name="crosswalk" width="3" height="3" resizeKind="NSEW">
+          <target xmi:type="testtrack:Crosswalk" href="example.testtrack#//@tracksegments.1/@roadsegments.0/@signs.0"/>
+          <semanticElements xmi:type="testtrack:Crosswalk" href="example.testtrack#//@tracksegments.1/@roadsegments.0/@signs.0"/>
+          <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+          <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+          <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+          <ownedStyle xmi:type="diagram:Square" xmi:id="_eRWL0fFrEeiC4MOdnoaaag" labelPosition="node">
+            <description xmi:type="style:SquareDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='SignNode']/@style"/>
+          </ownedStyle>
+          <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer/@containerMappings[name='TrackSegmentContainer']/@subContainerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='SignNode']"/>
+        </ownedDiagramElements>
       </ownedDiagramElements>
     </ownedDiagramElements>
     <description xmi:type="description_1:DiagramDescription" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']"/>
-    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_eAvjePD8Eei09fwdGTtk-w"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_DZ0suPFnEeiC4MOdnoaaag"/>
     <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/auto.voyage.oas.testtrack.design/description/testtrack.odesign#//@ownedViewpoints[name='TestTrack']/@ownedRepresentations[name='Track%20diagram']/@defaultLayer"/>
     <target xmi:type="testtrack:TestTrack" href="example.testtrack#/"/>
   </diagram:DSemanticDiagram>
