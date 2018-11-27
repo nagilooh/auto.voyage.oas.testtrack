@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ASCII"?>
+<testtrack:TestTrack xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:testtrack="http://www.example.org/testtrack" xsi:schemaLocation="http://www.example.org/testtrack ../../model/testtrack.ecore">
+  <tracksegments>
+    <intersection/>
+    <scenarios/>
+  </tracksegments>
+  <tracksegments/>
+  <tracksegments>
+    <roadsegments>
+      <signs xsi:type="testtrack:GiveWaySign"/>
+      <signs xsi:type="testtrack:StopSign"/>
+      <signs xsi:type="testtrack:StopSign"/>
+      <signs xsi:type="testtrack:Crosswalk"/>
+    </roadsegments>
+    <intersection/>
+    <scenarios/>
+    <scenarios>
+      <actors/>
+    </scenarios>
+  </tracksegments>
+  <tracksegments>
+    <roadsegments>
+      <roadcomponents xsi:type="testtrack:Sidewalk"/>
+    </roadsegments>
+    <scenarios>
+      <actors/>
+    </scenarios>
+  </tracksegments>
+  <tracksegments>
+    <roadsegments>
+      <signs xsi:type="testtrack:Crosswalk"/>
+    </roadsegments>
+    <roadsegments>
+      <roadcomponents xsi:type="testtrack:Sidewalk"/>
+      <signs xsi:type="testtrack:StopSign"/>
+      <signs xsi:type="testtrack:Crosswalk"/>
+      <signs xsi:type="testtrack:GiveWaySign"/>
+      <signs xsi:type="testtrack:Crosswalk"/>
+      <signs xsi:type="testtrack:Crosswalk"/>
+    </roadsegments>
+    <scenarios/>
+  </tracksegments>
+</testtrack:TestTrack>

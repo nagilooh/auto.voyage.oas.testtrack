@@ -6,8 +6,8 @@
       <roadcomponents xsi:type="testtrack:Lane" name="3-way west out"/>
     </roadsegments>
     <roadsegments name="3-way east">
-      <roadcomponents xsi:type="testtrack:Lane" name="3-way east in"/>
-      <roadcomponents xsi:type="testtrack:Lane" name="3-way east out"/>
+      <roadcomponents xsi:type="testtrack:Lane" name="3-way east in" comesFrom="//@tracksegments.1/@roadsegments.0/@roadcomponents.1"/>
+      <roadcomponents xsi:type="testtrack:Lane" name="3-way east out" leadsTo="//@tracksegments.1/@roadsegments.0/@roadcomponents.0"/>
     </roadsegments>
     <roadsegments name="3-way south">
       <roadcomponents xsi:type="testtrack:Lane" name="3-way south in"/>
@@ -26,8 +26,8 @@
   </tracksegments>
   <tracksegments name="Road with crosswalk">
     <roadsegments name="Straight road">
-      <roadcomponents xsi:type="testtrack:Lane" name="road_with_crosswalk east lane"/>
-      <roadcomponents xsi:type="testtrack:Lane" name="road_with_crosswalk west lane"/>
+      <roadcomponents xsi:type="testtrack:Lane" name="road_with_crosswalk east lane" comesFrom="//@tracksegments.0/@roadsegments.1/@roadcomponents.1"/>
+      <roadcomponents xsi:type="testtrack:Lane" name="road_with_crosswalk west lane" leadsTo="//@tracksegments.0/@roadsegments.1/@roadcomponents.0"/>
       <roadcomponents xsi:type="testtrack:Sidewalk" name="road_with_crosswalk east sidewalk"/>
       <roadcomponents xsi:type="testtrack:Sidewalk" name="road_with_crosswalk west sidewalk"/>
       <signs xsi:type="testtrack:Crosswalk" name="crosswalk"/>
