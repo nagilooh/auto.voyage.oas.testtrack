@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" name="tracksegment" version="12.0.0.2017041100">
+  <ownedViewpoints name="TrackSegment">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="TrackSegment diagram" initialisation="true" domainClass="testtrack::TrackSegment" enablePopupBars="true">
+      <defaultLayer name="Default">
+        <nodeMappings name="ActorNode" domainClass="testtrack::Actor">
+          <style xsi:type="style:SquareDescription" labelPosition="node" resizeKind="NSEW" width="6" height="6">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="ActionNode" domainClass="testtrack::Action">
+          <style xsi:type="style:SquareDescription" labelPosition="node" resizeKind="NSEW" width="20" height="3">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="toLaneEdge" sourceMapping="//@ownedViewpoints[name='TrackSegment']/@ownedRepresentations[name='TrackSegment%20diagram']/@defaultLayer/@containerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='LaneNode']" targetMapping="//@ownedViewpoints[name='TrackSegment']/@ownedRepresentations[name='TrackSegment%20diagram']/@defaultLayer/@containerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='LaneNode']" targetFinderExpression="feature:toLanes">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="rightLaneEdge" sourceMapping="//@ownedViewpoints[name='TrackSegment']/@ownedRepresentations[name='TrackSegment%20diagram']/@defaultLayer/@containerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='LaneNode'] //@ownedViewpoints[name='TrackSegment']/@ownedRepresentations[name='TrackSegment%20diagram']/@defaultLayer/@containerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='SidewalkNode']" targetMapping="//@ownedViewpoints[name='TrackSegment']/@ownedRepresentations[name='TrackSegment%20diagram']/@defaultLayer/@containerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='LaneNode'] //@ownedViewpoints[name='TrackSegment']/@ownedRepresentations[name='TrackSegment%20diagram']/@defaultLayer/@containerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='SidewalkNode']" targetFinderExpression="feature:rightLane">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="rightNeighborOfNeighborEdge" sourceMapping="//@ownedViewpoints[name='TrackSegment']/@ownedRepresentations[name='TrackSegment%20diagram']/@defaultLayer/@containerMappings[name='RoadSegmentContainer']" targetMapping="//@ownedViewpoints[name='TrackSegment']/@ownedRepresentations[name='TrackSegment%20diagram']/@defaultLayer/@containerMappings[name='RoadSegmentContainer']" targetFinderExpression="feature:rightNeighborOfNeighbor">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelExpression="rightNeigborOfNeighbor">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="actionEdge" sourceMapping="//@ownedViewpoints[name='TrackSegment']/@ownedRepresentations[name='TrackSegment%20diagram']/@defaultLayer/@nodeMappings[name='ActorNode']" targetMapping="//@ownedViewpoints[name='TrackSegment']/@ownedRepresentations[name='TrackSegment%20diagram']/@defaultLayer/@nodeMappings[name='ActionNode']" targetFinderExpression="aql:self.action" sourceFinderExpression="var:self" domainClass="testtrack::Actor" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="startPositionEdge" sourceMapping="//@ownedViewpoints[name='TrackSegment']/@ownedRepresentations[name='TrackSegment%20diagram']/@defaultLayer/@nodeMappings[name='ActionNode']" targetMapping="//@ownedViewpoints[name='TrackSegment']/@ownedRepresentations[name='TrackSegment%20diagram']/@defaultLayer/@containerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='LaneNode'] //@ownedViewpoints[name='TrackSegment']/@ownedRepresentations[name='TrackSegment%20diagram']/@defaultLayer/@containerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='SidewalkNode']" targetFinderExpression="aql:self.startPosition">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="endPositionEdge" sourceMapping="//@ownedViewpoints[name='TrackSegment']/@ownedRepresentations[name='TrackSegment%20diagram']/@defaultLayer/@nodeMappings[name='ActionNode']" targetMapping="//@ownedViewpoints[name='TrackSegment']/@ownedRepresentations[name='TrackSegment%20diagram']/@defaultLayer/@containerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='LaneNode'] //@ownedViewpoints[name='TrackSegment']/@ownedRepresentations[name='TrackSegment%20diagram']/@defaultLayer/@containerMappings[name='RoadSegmentContainer']/@subNodeMappings[name='SidewalkNode']" targetFinderExpression="aql:self.endPosition">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <containerMappings name="RoadSegmentContainer" semanticCandidatesExpression="feature:roadsegments" domainClass="testtrack::RoadSegment">
+          <subNodeMappings name="LaneNode" semanticCandidatesExpression="feature:eAllContents" domainClass="testtrack::Lane">
+            <style xsi:type="style:SquareDescription" labelPosition="node" resizeKind="NSEW" width="10" height="5">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="SignNode" semanticCandidatesExpression="feature:eAllContents" domainClass="testtrack::Sign">
+            <style xsi:type="style:SquareDescription" labelPosition="node" resizeKind="NSEW" width="8" height="2">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_yellow']"/>
+            </style>
+          </subNodeMappings>
+          <subNodeMappings name="SidewalkNode" semanticCandidatesExpression="feature:eAllContents" domainClass="testtrack::Sidewalk">
+            <style xsi:type="style:SquareDescription" labelPosition="node" resizeKind="NSEW" width="6" height="5">
+              <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+              <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            </style>
+          </subNodeMappings>
+          <style xsi:type="style:FlatContainerStyleDescription" borderSizeComputationExpression="1">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+            <foregroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='light_gray']"/>
+          </style>
+        </containerMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="auto.voyage.oas.testtrack.design.Services"/>
+  </ownedViewpoints>
+</description:Group>

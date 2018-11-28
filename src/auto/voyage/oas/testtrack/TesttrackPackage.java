@@ -39,7 +39,7 @@ public interface TesttrackPackage extends EPackage {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	String eNS_URI = "http://www.example.org/testtrack";
+	String eNS_URI = "https://github.com/nagilooh/auto.voyage.oas.testtrack";
 
 	/**
 	 * The package namespace name.
@@ -58,52 +58,6 @@ public interface TesttrackPackage extends EPackage {
 	TesttrackPackage eINSTANCE = auto.voyage.oas.testtrack.impl.TesttrackPackageImpl.init();
 
 	/**
-	 * The meta object id for the '{@link auto.voyage.oas.testtrack.impl.TestTrackImpl <em>Test Track</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see auto.voyage.oas.testtrack.impl.TestTrackImpl
-	 * @see auto.voyage.oas.testtrack.impl.TesttrackPackageImpl#getTestTrack()
-	 * @generated
-	 */
-	int TEST_TRACK = 0;
-
-	/**
-	 * The feature id for the '<em><b>Name</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int TEST_TRACK__NAME = 0;
-
-	/**
-	 * The feature id for the '<em><b>Tracksegments</b></em>' containment reference list.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int TEST_TRACK__TRACKSEGMENTS = 1;
-
-	/**
-	 * The number of structural features of the '<em>Test Track</em>' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int TEST_TRACK_FEATURE_COUNT = 2;
-
-	/**
-	 * The number of operations of the '<em>Test Track</em>' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int TEST_TRACK_OPERATION_COUNT = 0;
-
-	/**
 	 * The meta object id for the '{@link auto.voyage.oas.testtrack.impl.ScenarioImpl <em>Scenario</em>}' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -111,7 +65,7 @@ public interface TesttrackPackage extends EPackage {
 	 * @see auto.voyage.oas.testtrack.impl.TesttrackPackageImpl#getScenario()
 	 * @generated
 	 */
-	int SCENARIO = 1;
+	int SCENARIO = 0;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -132,13 +86,22 @@ public interface TesttrackPackage extends EPackage {
 	int SCENARIO__ACTORS = 1;
 
 	/**
+	 * The feature id for the '<em><b>SUT</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SCENARIO__SUT = 2;
+
+	/**
 	 * The number of structural features of the '<em>Scenario</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int SCENARIO_FEATURE_COUNT = 2;
+	int SCENARIO_FEATURE_COUNT = 3;
 
 	/**
 	 * The number of operations of the '<em>Scenario</em>' class.
@@ -157,7 +120,7 @@ public interface TesttrackPackage extends EPackage {
 	 * @see auto.voyage.oas.testtrack.impl.TesttrackPackageImpl#getRoadSegment()
 	 * @generated
 	 */
-	int ROAD_SEGMENT = 2;
+	int ROAD_SEGMENT = 1;
 
 	/**
 	 * The feature id for the '<em><b>Roadcomponents</b></em>' containment reference list.
@@ -187,13 +150,31 @@ public interface TesttrackPackage extends EPackage {
 	int ROAD_SEGMENT__NAME = 2;
 
 	/**
+	 * The feature id for the '<em><b>Left Neighbor Of Neighbor</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROAD_SEGMENT__LEFT_NEIGHBOR_OF_NEIGHBOR = 3;
+
+	/**
+	 * The feature id for the '<em><b>Right Neighbor Of Neighbor</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROAD_SEGMENT__RIGHT_NEIGHBOR_OF_NEIGHBOR = 4;
+
+	/**
 	 * The number of structural features of the '<em>Road Segment</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int ROAD_SEGMENT_FEATURE_COUNT = 3;
+	int ROAD_SEGMENT_FEATURE_COUNT = 5;
 
 	/**
 	 * The number of operations of the '<em>Road Segment</em>' class.
@@ -212,7 +193,7 @@ public interface TesttrackPackage extends EPackage {
 	 * @see auto.voyage.oas.testtrack.impl.TesttrackPackageImpl#getActor()
 	 * @generated
 	 */
-	int ACTOR = 3;
+	int ACTOR = 2;
 
 	/**
 	 * The feature id for the '<em><b>Type</b></em>' attribute.
@@ -233,7 +214,7 @@ public interface TesttrackPackage extends EPackage {
 	int ACTOR__NAME = 1;
 
 	/**
-	 * The feature id for the '<em><b>Action</b></em>' containment reference list.
+	 * The feature id for the '<em><b>Action</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
@@ -267,7 +248,7 @@ public interface TesttrackPackage extends EPackage {
 	 * @see auto.voyage.oas.testtrack.impl.TesttrackPackageImpl#getTrackSegment()
 	 * @generated
 	 */
-	int TRACK_SEGMENT = 4;
+	int TRACK_SEGMENT = 3;
 
 	/**
 	 * The feature id for the '<em><b>Roadsegments</b></em>' containment reference list.
@@ -279,22 +260,13 @@ public interface TesttrackPackage extends EPackage {
 	int TRACK_SEGMENT__ROADSEGMENTS = 0;
 
 	/**
-	 * The feature id for the '<em><b>Intersection</b></em>' containment reference list.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int TRACK_SEGMENT__INTERSECTION = 1;
-
-	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int TRACK_SEGMENT__NAME = 2;
+	int TRACK_SEGMENT__NAME = 1;
 
 	/**
 	 * The feature id for the '<em><b>Scenarios</b></em>' containment reference list.
@@ -303,7 +275,7 @@ public interface TesttrackPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int TRACK_SEGMENT__SCENARIOS = 3;
+	int TRACK_SEGMENT__SCENARIOS = 2;
 
 	/**
 	 * The number of structural features of the '<em>Track Segment</em>' class.
@@ -312,7 +284,7 @@ public interface TesttrackPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int TRACK_SEGMENT_FEATURE_COUNT = 4;
+	int TRACK_SEGMENT_FEATURE_COUNT = 3;
 
 	/**
 	 * The number of operations of the '<em>Track Segment</em>' class.
@@ -331,7 +303,7 @@ public interface TesttrackPackage extends EPackage {
 	 * @see auto.voyage.oas.testtrack.impl.TesttrackPackageImpl#getRoadComponent()
 	 * @generated
 	 */
-	int ROAD_COMPONENT = 5;
+	int ROAD_COMPONENT = 4;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -343,13 +315,31 @@ public interface TesttrackPackage extends EPackage {
 	int ROAD_COMPONENT__NAME = 0;
 
 	/**
+	 * The feature id for the '<em><b>Left Lane</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROAD_COMPONENT__LEFT_LANE = 1;
+
+	/**
+	 * The feature id for the '<em><b>Right Lane</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int ROAD_COMPONENT__RIGHT_LANE = 2;
+
+	/**
 	 * The number of structural features of the '<em>Road Component</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int ROAD_COMPONENT_FEATURE_COUNT = 1;
+	int ROAD_COMPONENT_FEATURE_COUNT = 3;
 
 	/**
 	 * The number of operations of the '<em>Road Component</em>' class.
@@ -368,7 +358,7 @@ public interface TesttrackPackage extends EPackage {
 	 * @see auto.voyage.oas.testtrack.impl.TesttrackPackageImpl#getLane()
 	 * @generated
 	 */
-	int LANE = 6;
+	int LANE = 5;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -380,22 +370,49 @@ public interface TesttrackPackage extends EPackage {
 	int LANE__NAME = ROAD_COMPONENT__NAME;
 
 	/**
-	 * The feature id for the '<em><b>Comes From</b></em>' reference.
+	 * The feature id for the '<em><b>Left Lane</b></em>' reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int LANE__COMES_FROM = ROAD_COMPONENT_FEATURE_COUNT + 0;
+	int LANE__LEFT_LANE = ROAD_COMPONENT__LEFT_LANE;
 
 	/**
-	 * The feature id for the '<em><b>Leads To</b></em>' reference.
+	 * The feature id for the '<em><b>Right Lane</b></em>' reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int LANE__LEADS_TO = ROAD_COMPONENT_FEATURE_COUNT + 1;
+	int LANE__RIGHT_LANE = ROAD_COMPONENT__RIGHT_LANE;
+
+	/**
+	 * The feature id for the '<em><b>From Lanes</b></em>' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int LANE__FROM_LANES = ROAD_COMPONENT_FEATURE_COUNT + 0;
+
+	/**
+	 * The feature id for the '<em><b>To Lanes</b></em>' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int LANE__TO_LANES = ROAD_COMPONENT_FEATURE_COUNT + 1;
+
+	/**
+	 * The feature id for the '<em><b>Straight</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int LANE__STRAIGHT = ROAD_COMPONENT_FEATURE_COUNT + 2;
 
 	/**
 	 * The number of structural features of the '<em>Lane</em>' class.
@@ -404,7 +421,7 @@ public interface TesttrackPackage extends EPackage {
 	 * @generated
 	 * @ordered
 	 */
-	int LANE_FEATURE_COUNT = ROAD_COMPONENT_FEATURE_COUNT + 2;
+	int LANE_FEATURE_COUNT = ROAD_COMPONENT_FEATURE_COUNT + 3;
 
 	/**
 	 * The number of operations of the '<em>Lane</em>' class.
@@ -423,7 +440,7 @@ public interface TesttrackPackage extends EPackage {
 	 * @see auto.voyage.oas.testtrack.impl.TesttrackPackageImpl#getSidewalk()
 	 * @generated
 	 */
-	int SIDEWALK = 7;
+	int SIDEWALK = 6;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -433,6 +450,24 @@ public interface TesttrackPackage extends EPackage {
 	 * @ordered
 	 */
 	int SIDEWALK__NAME = ROAD_COMPONENT__NAME;
+
+	/**
+	 * The feature id for the '<em><b>Left Lane</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SIDEWALK__LEFT_LANE = ROAD_COMPONENT__LEFT_LANE;
+
+	/**
+	 * The feature id for the '<em><b>Right Lane</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SIDEWALK__RIGHT_LANE = ROAD_COMPONENT__RIGHT_LANE;
 
 	/**
 	 * The number of structural features of the '<em>Sidewalk</em>' class.
@@ -460,7 +495,7 @@ public interface TesttrackPackage extends EPackage {
 	 * @see auto.voyage.oas.testtrack.impl.TesttrackPackageImpl#getAction()
 	 * @generated
 	 */
-	int ACTION = 8;
+	int ACTION = 7;
 
 	/**
 	 * The feature id for the '<em><b>Start Position</b></em>' reference.
@@ -515,7 +550,7 @@ public interface TesttrackPackage extends EPackage {
 	 * @see auto.voyage.oas.testtrack.impl.TesttrackPackageImpl#getSign()
 	 * @generated
 	 */
-	int SIGN = 9;
+	int SIGN = 8;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -552,7 +587,7 @@ public interface TesttrackPackage extends EPackage {
 	 * @see auto.voyage.oas.testtrack.impl.TesttrackPackageImpl#getCrosswalk()
 	 * @generated
 	 */
-	int CROSSWALK = 10;
+	int CROSSWALK = 9;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -589,7 +624,7 @@ public interface TesttrackPackage extends EPackage {
 	 * @see auto.voyage.oas.testtrack.impl.TesttrackPackageImpl#getStopSign()
 	 * @generated
 	 */
-	int STOP_SIGN = 11;
+	int STOP_SIGN = 10;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -626,7 +661,7 @@ public interface TesttrackPackage extends EPackage {
 	 * @see auto.voyage.oas.testtrack.impl.TesttrackPackageImpl#getGiveWaySign()
 	 * @generated
 	 */
-	int GIVE_WAY_SIGN = 12;
+	int GIVE_WAY_SIGN = 11;
 
 	/**
 	 * The feature id for the '<em><b>Name</b></em>' attribute.
@@ -656,61 +691,6 @@ public interface TesttrackPackage extends EPackage {
 	int GIVE_WAY_SIGN_OPERATION_COUNT = SIGN_OPERATION_COUNT + 0;
 
 	/**
-	 * The meta object id for the '{@link auto.voyage.oas.testtrack.impl.IntersectionImpl <em>Intersection</em>}' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see auto.voyage.oas.testtrack.impl.IntersectionImpl
-	 * @see auto.voyage.oas.testtrack.impl.TesttrackPackageImpl#getIntersection()
-	 * @generated
-	 */
-	int INTERSECTION = 13;
-
-	/**
-	 * The feature id for the '<em><b>Lanes In</b></em>' reference list.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int INTERSECTION__LANES_IN = 0;
-
-	/**
-	 * The feature id for the '<em><b>Lanes Out</b></em>' reference list.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int INTERSECTION__LANES_OUT = 1;
-
-	/**
-	 * The feature id for the '<em><b>Name</b></em>' attribute.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int INTERSECTION__NAME = 2;
-
-	/**
-	 * The number of structural features of the '<em>Intersection</em>' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int INTERSECTION_FEATURE_COUNT = 3;
-
-	/**
-	 * The number of operations of the '<em>Intersection</em>' class.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 * @ordered
-	 */
-	int INTERSECTION_OPERATION_COUNT = 0;
-
-	/**
 	 * The meta object id for the '{@link auto.voyage.oas.testtrack.ActorType <em>Actor Type</em>}' enum.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -718,40 +698,8 @@ public interface TesttrackPackage extends EPackage {
 	 * @see auto.voyage.oas.testtrack.impl.TesttrackPackageImpl#getActorType()
 	 * @generated
 	 */
-	int ACTOR_TYPE = 14;
+	int ACTOR_TYPE = 12;
 
-
-	/**
-	 * Returns the meta object for class '{@link auto.voyage.oas.testtrack.TestTrack <em>Test Track</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Test Track</em>'.
-	 * @see auto.voyage.oas.testtrack.TestTrack
-	 * @generated
-	 */
-	EClass getTestTrack();
-
-	/**
-	 * Returns the meta object for the attribute '{@link auto.voyage.oas.testtrack.TestTrack#getName <em>Name</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Name</em>'.
-	 * @see auto.voyage.oas.testtrack.TestTrack#getName()
-	 * @see #getTestTrack()
-	 * @generated
-	 */
-	EAttribute getTestTrack_Name();
-
-	/**
-	 * Returns the meta object for the containment reference list '{@link auto.voyage.oas.testtrack.TestTrack#getTracksegments <em>Tracksegments</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference list '<em>Tracksegments</em>'.
-	 * @see auto.voyage.oas.testtrack.TestTrack#getTracksegments()
-	 * @see #getTestTrack()
-	 * @generated
-	 */
-	EReference getTestTrack_Tracksegments();
 
 	/**
 	 * Returns the meta object for class '{@link auto.voyage.oas.testtrack.Scenario <em>Scenario</em>}'.
@@ -784,6 +732,17 @@ public interface TesttrackPackage extends EPackage {
 	 * @generated
 	 */
 	EReference getScenario_Actors();
+
+	/**
+	 * Returns the meta object for the reference '{@link auto.voyage.oas.testtrack.Scenario#getSUT <em>SUT</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference '<em>SUT</em>'.
+	 * @see auto.voyage.oas.testtrack.Scenario#getSUT()
+	 * @see #getScenario()
+	 * @generated
+	 */
+	EReference getScenario_SUT();
 
 	/**
 	 * Returns the meta object for class '{@link auto.voyage.oas.testtrack.RoadSegment <em>Road Segment</em>}'.
@@ -829,6 +788,28 @@ public interface TesttrackPackage extends EPackage {
 	EAttribute getRoadSegment_Name();
 
 	/**
+	 * Returns the meta object for the reference '{@link auto.voyage.oas.testtrack.RoadSegment#getLeftNeighborOfNeighbor <em>Left Neighbor Of Neighbor</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference '<em>Left Neighbor Of Neighbor</em>'.
+	 * @see auto.voyage.oas.testtrack.RoadSegment#getLeftNeighborOfNeighbor()
+	 * @see #getRoadSegment()
+	 * @generated
+	 */
+	EReference getRoadSegment_LeftNeighborOfNeighbor();
+
+	/**
+	 * Returns the meta object for the reference '{@link auto.voyage.oas.testtrack.RoadSegment#getRightNeighborOfNeighbor <em>Right Neighbor Of Neighbor</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference '<em>Right Neighbor Of Neighbor</em>'.
+	 * @see auto.voyage.oas.testtrack.RoadSegment#getRightNeighborOfNeighbor()
+	 * @see #getRoadSegment()
+	 * @generated
+	 */
+	EReference getRoadSegment_RightNeighborOfNeighbor();
+
+	/**
 	 * Returns the meta object for class '{@link auto.voyage.oas.testtrack.Actor <em>Actor</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -861,10 +842,10 @@ public interface TesttrackPackage extends EPackage {
 	EAttribute getActor_Name();
 
 	/**
-	 * Returns the meta object for the containment reference list '{@link auto.voyage.oas.testtrack.Actor#getAction <em>Action</em>}'.
+	 * Returns the meta object for the containment reference '{@link auto.voyage.oas.testtrack.Actor#getAction <em>Action</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference list '<em>Action</em>'.
+	 * @return the meta object for the containment reference '<em>Action</em>'.
 	 * @see auto.voyage.oas.testtrack.Actor#getAction()
 	 * @see #getActor()
 	 * @generated
@@ -891,17 +872,6 @@ public interface TesttrackPackage extends EPackage {
 	 * @generated
 	 */
 	EReference getTrackSegment_Roadsegments();
-
-	/**
-	 * Returns the meta object for the containment reference list '{@link auto.voyage.oas.testtrack.TrackSegment#getIntersection <em>Intersection</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the containment reference list '<em>Intersection</em>'.
-	 * @see auto.voyage.oas.testtrack.TrackSegment#getIntersection()
-	 * @see #getTrackSegment()
-	 * @generated
-	 */
-	EReference getTrackSegment_Intersection();
 
 	/**
 	 * Returns the meta object for the attribute '{@link auto.voyage.oas.testtrack.TrackSegment#getName <em>Name</em>}'.
@@ -947,6 +917,28 @@ public interface TesttrackPackage extends EPackage {
 	EAttribute getRoadComponent_Name();
 
 	/**
+	 * Returns the meta object for the reference '{@link auto.voyage.oas.testtrack.RoadComponent#getLeftLane <em>Left Lane</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference '<em>Left Lane</em>'.
+	 * @see auto.voyage.oas.testtrack.RoadComponent#getLeftLane()
+	 * @see #getRoadComponent()
+	 * @generated
+	 */
+	EReference getRoadComponent_LeftLane();
+
+	/**
+	 * Returns the meta object for the reference '{@link auto.voyage.oas.testtrack.RoadComponent#getRightLane <em>Right Lane</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference '<em>Right Lane</em>'.
+	 * @see auto.voyage.oas.testtrack.RoadComponent#getRightLane()
+	 * @see #getRoadComponent()
+	 * @generated
+	 */
+	EReference getRoadComponent_RightLane();
+
+	/**
 	 * Returns the meta object for class '{@link auto.voyage.oas.testtrack.Lane <em>Lane</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -957,26 +949,37 @@ public interface TesttrackPackage extends EPackage {
 	EClass getLane();
 
 	/**
-	 * Returns the meta object for the reference '{@link auto.voyage.oas.testtrack.Lane#getComesFrom <em>Comes From</em>}'.
+	 * Returns the meta object for the reference list '{@link auto.voyage.oas.testtrack.Lane#getFromLanes <em>From Lanes</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference '<em>Comes From</em>'.
-	 * @see auto.voyage.oas.testtrack.Lane#getComesFrom()
+	 * @return the meta object for the reference list '<em>From Lanes</em>'.
+	 * @see auto.voyage.oas.testtrack.Lane#getFromLanes()
 	 * @see #getLane()
 	 * @generated
 	 */
-	EReference getLane_ComesFrom();
+	EReference getLane_FromLanes();
 
 	/**
-	 * Returns the meta object for the reference '{@link auto.voyage.oas.testtrack.Lane#getLeadsTo <em>Leads To</em>}'.
+	 * Returns the meta object for the reference list '{@link auto.voyage.oas.testtrack.Lane#getToLanes <em>To Lanes</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference '<em>Leads To</em>'.
-	 * @see auto.voyage.oas.testtrack.Lane#getLeadsTo()
+	 * @return the meta object for the reference list '<em>To Lanes</em>'.
+	 * @see auto.voyage.oas.testtrack.Lane#getToLanes()
 	 * @see #getLane()
 	 * @generated
 	 */
-	EReference getLane_LeadsTo();
+	EReference getLane_ToLanes();
+
+	/**
+	 * Returns the meta object for the attribute '{@link auto.voyage.oas.testtrack.Lane#isStraight <em>Straight</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Straight</em>'.
+	 * @see auto.voyage.oas.testtrack.Lane#isStraight()
+	 * @see #getLane()
+	 * @generated
+	 */
+	EAttribute getLane_Straight();
 
 	/**
 	 * Returns the meta object for class '{@link auto.voyage.oas.testtrack.Sidewalk <em>Sidewalk</em>}'.
@@ -1083,49 +1086,6 @@ public interface TesttrackPackage extends EPackage {
 	EClass getGiveWaySign();
 
 	/**
-	 * Returns the meta object for class '{@link auto.voyage.oas.testtrack.Intersection <em>Intersection</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for class '<em>Intersection</em>'.
-	 * @see auto.voyage.oas.testtrack.Intersection
-	 * @generated
-	 */
-	EClass getIntersection();
-
-	/**
-	 * Returns the meta object for the reference list '{@link auto.voyage.oas.testtrack.Intersection#getLanesIn <em>Lanes In</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Lanes In</em>'.
-	 * @see auto.voyage.oas.testtrack.Intersection#getLanesIn()
-	 * @see #getIntersection()
-	 * @generated
-	 */
-	EReference getIntersection_LanesIn();
-
-	/**
-	 * Returns the meta object for the reference list '{@link auto.voyage.oas.testtrack.Intersection#getLanesOut <em>Lanes Out</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the reference list '<em>Lanes Out</em>'.
-	 * @see auto.voyage.oas.testtrack.Intersection#getLanesOut()
-	 * @see #getIntersection()
-	 * @generated
-	 */
-	EReference getIntersection_LanesOut();
-
-	/**
-	 * Returns the meta object for the attribute '{@link auto.voyage.oas.testtrack.Intersection#getName <em>Name</em>}'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return the meta object for the attribute '<em>Name</em>'.
-	 * @see auto.voyage.oas.testtrack.Intersection#getName()
-	 * @see #getIntersection()
-	 * @generated
-	 */
-	EAttribute getIntersection_Name();
-
-	/**
 	 * Returns the meta object for enum '{@link auto.voyage.oas.testtrack.ActorType <em>Actor Type</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1159,32 +1119,6 @@ public interface TesttrackPackage extends EPackage {
 	 */
 	interface Literals {
 		/**
-		 * The meta object literal for the '{@link auto.voyage.oas.testtrack.impl.TestTrackImpl <em>Test Track</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see auto.voyage.oas.testtrack.impl.TestTrackImpl
-		 * @see auto.voyage.oas.testtrack.impl.TesttrackPackageImpl#getTestTrack()
-		 * @generated
-		 */
-		EClass TEST_TRACK = eINSTANCE.getTestTrack();
-
-		/**
-		 * The meta object literal for the '<em><b>Name</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute TEST_TRACK__NAME = eINSTANCE.getTestTrack_Name();
-
-		/**
-		 * The meta object literal for the '<em><b>Tracksegments</b></em>' containment reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference TEST_TRACK__TRACKSEGMENTS = eINSTANCE.getTestTrack_Tracksegments();
-
-		/**
 		 * The meta object literal for the '{@link auto.voyage.oas.testtrack.impl.ScenarioImpl <em>Scenario</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
@@ -1209,6 +1143,14 @@ public interface TesttrackPackage extends EPackage {
 		 * @generated
 		 */
 		EReference SCENARIO__ACTORS = eINSTANCE.getScenario_Actors();
+
+		/**
+		 * The meta object literal for the '<em><b>SUT</b></em>' reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference SCENARIO__SUT = eINSTANCE.getScenario_SUT();
 
 		/**
 		 * The meta object literal for the '{@link auto.voyage.oas.testtrack.impl.RoadSegmentImpl <em>Road Segment</em>}' class.
@@ -1245,6 +1187,22 @@ public interface TesttrackPackage extends EPackage {
 		EAttribute ROAD_SEGMENT__NAME = eINSTANCE.getRoadSegment_Name();
 
 		/**
+		 * The meta object literal for the '<em><b>Left Neighbor Of Neighbor</b></em>' reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ROAD_SEGMENT__LEFT_NEIGHBOR_OF_NEIGHBOR = eINSTANCE.getRoadSegment_LeftNeighborOfNeighbor();
+
+		/**
+		 * The meta object literal for the '<em><b>Right Neighbor Of Neighbor</b></em>' reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ROAD_SEGMENT__RIGHT_NEIGHBOR_OF_NEIGHBOR = eINSTANCE.getRoadSegment_RightNeighborOfNeighbor();
+
+		/**
 		 * The meta object literal for the '{@link auto.voyage.oas.testtrack.impl.ActorImpl <em>Actor</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
@@ -1271,7 +1229,7 @@ public interface TesttrackPackage extends EPackage {
 		EAttribute ACTOR__NAME = eINSTANCE.getActor_Name();
 
 		/**
-		 * The meta object literal for the '<em><b>Action</b></em>' containment reference list feature.
+		 * The meta object literal for the '<em><b>Action</b></em>' containment reference feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
@@ -1295,14 +1253,6 @@ public interface TesttrackPackage extends EPackage {
 		 * @generated
 		 */
 		EReference TRACK_SEGMENT__ROADSEGMENTS = eINSTANCE.getTrackSegment_Roadsegments();
-
-		/**
-		 * The meta object literal for the '<em><b>Intersection</b></em>' containment reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference TRACK_SEGMENT__INTERSECTION = eINSTANCE.getTrackSegment_Intersection();
 
 		/**
 		 * The meta object literal for the '<em><b>Name</b></em>' attribute feature.
@@ -1339,6 +1289,22 @@ public interface TesttrackPackage extends EPackage {
 		EAttribute ROAD_COMPONENT__NAME = eINSTANCE.getRoadComponent_Name();
 
 		/**
+		 * The meta object literal for the '<em><b>Left Lane</b></em>' reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ROAD_COMPONENT__LEFT_LANE = eINSTANCE.getRoadComponent_LeftLane();
+
+		/**
+		 * The meta object literal for the '<em><b>Right Lane</b></em>' reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference ROAD_COMPONENT__RIGHT_LANE = eINSTANCE.getRoadComponent_RightLane();
+
+		/**
 		 * The meta object literal for the '{@link auto.voyage.oas.testtrack.impl.LaneImpl <em>Lane</em>}' class.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
@@ -1349,20 +1315,28 @@ public interface TesttrackPackage extends EPackage {
 		EClass LANE = eINSTANCE.getLane();
 
 		/**
-		 * The meta object literal for the '<em><b>Comes From</b></em>' reference feature.
+		 * The meta object literal for the '<em><b>From Lanes</b></em>' reference list feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference LANE__COMES_FROM = eINSTANCE.getLane_ComesFrom();
+		EReference LANE__FROM_LANES = eINSTANCE.getLane_FromLanes();
 
 		/**
-		 * The meta object literal for the '<em><b>Leads To</b></em>' reference feature.
+		 * The meta object literal for the '<em><b>To Lanes</b></em>' reference list feature.
 		 * <!-- begin-user-doc -->
 		 * <!-- end-user-doc -->
 		 * @generated
 		 */
-		EReference LANE__LEADS_TO = eINSTANCE.getLane_LeadsTo();
+		EReference LANE__TO_LANES = eINSTANCE.getLane_ToLanes();
+
+		/**
+		 * The meta object literal for the '<em><b>Straight</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute LANE__STRAIGHT = eINSTANCE.getLane_Straight();
 
 		/**
 		 * The meta object literal for the '{@link auto.voyage.oas.testtrack.impl.SidewalkImpl <em>Sidewalk</em>}' class.
@@ -1455,40 +1429,6 @@ public interface TesttrackPackage extends EPackage {
 		 * @generated
 		 */
 		EClass GIVE_WAY_SIGN = eINSTANCE.getGiveWaySign();
-
-		/**
-		 * The meta object literal for the '{@link auto.voyage.oas.testtrack.impl.IntersectionImpl <em>Intersection</em>}' class.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @see auto.voyage.oas.testtrack.impl.IntersectionImpl
-		 * @see auto.voyage.oas.testtrack.impl.TesttrackPackageImpl#getIntersection()
-		 * @generated
-		 */
-		EClass INTERSECTION = eINSTANCE.getIntersection();
-
-		/**
-		 * The meta object literal for the '<em><b>Lanes In</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference INTERSECTION__LANES_IN = eINSTANCE.getIntersection_LanesIn();
-
-		/**
-		 * The meta object literal for the '<em><b>Lanes Out</b></em>' reference list feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EReference INTERSECTION__LANES_OUT = eINSTANCE.getIntersection_LanesOut();
-
-		/**
-		 * The meta object literal for the '<em><b>Name</b></em>' attribute feature.
-		 * <!-- begin-user-doc -->
-		 * <!-- end-user-doc -->
-		 * @generated
-		 */
-		EAttribute INTERSECTION__NAME = eINSTANCE.getIntersection_Name();
 
 		/**
 		 * The meta object literal for the '{@link auto.voyage.oas.testtrack.ActorType <em>Actor Type</em>}' enum.

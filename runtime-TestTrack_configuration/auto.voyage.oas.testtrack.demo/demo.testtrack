@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testtrack:TrackSegment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:testtrack="https://github.com/nagilooh/auto.voyage.oas.testtrack" name="3-Way uncontrolled intersection with another vehicle">
+  <roadsegments name="West" leftNeighborOfNeighbor="//@roadsegments.2" rightNeighborOfNeighbor="//@roadsegments.1">
+    <roadcomponents xsi:type="testtrack:Lane" name="West1" rightLane="//@roadsegments.0/@roadcomponents.2" toLanes="//@roadsegments.3/@roadcomponents.0 //@roadsegments.3/@roadcomponents.1"/>
+    <roadcomponents xsi:type="testtrack:Lane" name="West2" rightLane="//@roadsegments.0/@roadcomponents.3" fromLanes="//@roadsegments.3/@roadcomponents.3 //@roadsegments.3/@roadcomponents.5"/>
+    <roadcomponents xsi:type="testtrack:Sidewalk" name="west1" leftLane="//@roadsegments.0/@roadcomponents.0"/>
+    <roadcomponents xsi:type="testtrack:Sidewalk" name="west2" leftLane="//@roadsegments.0/@roadcomponents.1"/>
+    <signs xsi:type="testtrack:StopSign" name="Stop sign"/>
+    <signs xsi:type="testtrack:Crosswalk" name="Crosswalk"/>
+  </roadsegments>
+  <roadsegments name="South" leftNeighborOfNeighbor="//@roadsegments.0" rightNeighborOfNeighbor="//@roadsegments.2">
+    <roadcomponents xsi:type="testtrack:Lane" name="South1" toLanes="//@roadsegments.3/@roadcomponents.2 //@roadsegments.3/@roadcomponents.3"/>
+    <roadcomponents xsi:type="testtrack:Lane" name="South2" fromLanes="//@roadsegments.3/@roadcomponents.0 //@roadsegments.3/@roadcomponents.4"/>
+    <roadcomponents xsi:type="testtrack:Sidewalk" name="south1"/>
+    <roadcomponents xsi:type="testtrack:Sidewalk" name="south2"/>
+    <signs xsi:type="testtrack:Crosswalk" name="Crosswalk"/>
+  </roadsegments>
+  <roadsegments name="North" leftNeighborOfNeighbor="//@roadsegments.1" rightNeighborOfNeighbor="//@roadsegments.0">
+    <roadcomponents xsi:type="testtrack:Lane" name="North1" toLanes="//@roadsegments.3/@roadcomponents.4 //@roadsegments.3/@roadcomponents.5"/>
+    <roadcomponents xsi:type="testtrack:Lane" name="North2" fromLanes="//@roadsegments.3/@roadcomponents.1 //@roadsegments.3/@roadcomponents.2"/>
+    <roadcomponents xsi:type="testtrack:Sidewalk" name="north1"/>
+    <roadcomponents xsi:type="testtrack:Sidewalk" name="north2"/>
+    <signs xsi:type="testtrack:Crosswalk" name="Crosswalk"/>
+  </roadsegments>
+  <roadsegments name="Intersection">
+    <roadcomponents xsi:type="testtrack:Lane" name="w1-s2" fromLanes="//@roadsegments.0/@roadcomponents.0" toLanes="//@roadsegments.1/@roadcomponents.1"/>
+    <roadcomponents xsi:type="testtrack:Lane" name="w1-n2" fromLanes="//@roadsegments.0/@roadcomponents.0" toLanes="//@roadsegments.2/@roadcomponents.1"/>
+    <roadcomponents xsi:type="testtrack:Lane" name="s1-n2" fromLanes="//@roadsegments.1/@roadcomponents.0" toLanes="//@roadsegments.2/@roadcomponents.1"/>
+    <roadcomponents xsi:type="testtrack:Lane" name="s1-w2" fromLanes="//@roadsegments.1/@roadcomponents.0" toLanes="//@roadsegments.0/@roadcomponents.1"/>
+    <roadcomponents xsi:type="testtrack:Lane" name="n1-s2" fromLanes="//@roadsegments.2/@roadcomponents.0" toLanes="//@roadsegments.1/@roadcomponents.1"/>
+    <roadcomponents xsi:type="testtrack:Lane" name="n1-w2" fromLanes="//@roadsegments.2/@roadcomponents.0" toLanes="//@roadsegments.0/@roadcomponents.1"/>
+  </roadsegments>
+  <scenarios name="3-2-W-I-L-CAR:N>S">
+    <actors name="SUT">
+      <action startPosition="//@roadsegments.0/@roadcomponents.0" endPosition="//@roadsegments.2/@roadcomponents.1" name="SUT turns left"/>
+    </actors>
+    <actors name="Car">
+      <action startPosition="//@roadsegments.2/@roadcomponents.0" endPosition="//@roadsegments.1/@roadcomponents.1" name="Car goes straight"/>
+    </actors>
+  </scenarios>
+</testtrack:TrackSegment>

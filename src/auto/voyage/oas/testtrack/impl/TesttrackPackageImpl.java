@@ -7,7 +7,6 @@ import auto.voyage.oas.testtrack.Actor;
 import auto.voyage.oas.testtrack.ActorType;
 import auto.voyage.oas.testtrack.Crosswalk;
 import auto.voyage.oas.testtrack.GiveWaySign;
-import auto.voyage.oas.testtrack.Intersection;
 import auto.voyage.oas.testtrack.Lane;
 import auto.voyage.oas.testtrack.RoadComponent;
 import auto.voyage.oas.testtrack.RoadSegment;
@@ -15,7 +14,6 @@ import auto.voyage.oas.testtrack.Scenario;
 import auto.voyage.oas.testtrack.Sidewalk;
 import auto.voyage.oas.testtrack.Sign;
 import auto.voyage.oas.testtrack.StopSign;
-import auto.voyage.oas.testtrack.TestTrack;
 import auto.voyage.oas.testtrack.TesttrackFactory;
 import auto.voyage.oas.testtrack.TesttrackPackage;
 import auto.voyage.oas.testtrack.TrackSegment;
@@ -35,13 +33,6 @@ import org.eclipse.emf.ecore.impl.EPackageImpl;
  * @generated
  */
 public class TesttrackPackageImpl extends EPackageImpl implements TesttrackPackage {
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	private EClass testTrackEClass = null;
-
 	/**
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -131,13 +122,6 @@ public class TesttrackPackageImpl extends EPackageImpl implements TesttrackPacka
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	private EClass intersectionEClass = null;
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	private EEnum actorTypeEEnum = null;
 
 	/**
@@ -206,33 +190,6 @@ public class TesttrackPackageImpl extends EPackageImpl implements TesttrackPacka
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getTestTrack() {
-		return testTrackEClass;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EAttribute getTestTrack_Name() {
-		return (EAttribute)testTrackEClass.getEStructuralFeatures().get(0);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EReference getTestTrack_Tracksegments() {
-		return (EReference)testTrackEClass.getEStructuralFeatures().get(1);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	public EClass getScenario() {
 		return scenarioEClass;
 	}
@@ -253,6 +210,15 @@ public class TesttrackPackageImpl extends EPackageImpl implements TesttrackPacka
 	 */
 	public EReference getScenario_Actors() {
 		return (EReference)scenarioEClass.getEStructuralFeatures().get(1);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EReference getScenario_SUT() {
+		return (EReference)scenarioEClass.getEStructuralFeatures().get(2);
 	}
 
 	/**
@@ -289,6 +255,24 @@ public class TesttrackPackageImpl extends EPackageImpl implements TesttrackPacka
 	 */
 	public EAttribute getRoadSegment_Name() {
 		return (EAttribute)roadSegmentEClass.getEStructuralFeatures().get(2);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EReference getRoadSegment_LeftNeighborOfNeighbor() {
+		return (EReference)roadSegmentEClass.getEStructuralFeatures().get(3);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EReference getRoadSegment_RightNeighborOfNeighbor() {
+		return (EReference)roadSegmentEClass.getEStructuralFeatures().get(4);
 	}
 
 	/**
@@ -350,17 +334,8 @@ public class TesttrackPackageImpl extends EPackageImpl implements TesttrackPacka
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getTrackSegment_Intersection() {
-		return (EReference)trackSegmentEClass.getEStructuralFeatures().get(1);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	public EAttribute getTrackSegment_Name() {
-		return (EAttribute)trackSegmentEClass.getEStructuralFeatures().get(2);
+		return (EAttribute)trackSegmentEClass.getEStructuralFeatures().get(1);
 	}
 
 	/**
@@ -369,7 +344,7 @@ public class TesttrackPackageImpl extends EPackageImpl implements TesttrackPacka
 	 * @generated
 	 */
 	public EReference getTrackSegment_Scenarios() {
-		return (EReference)trackSegmentEClass.getEStructuralFeatures().get(3);
+		return (EReference)trackSegmentEClass.getEStructuralFeatures().get(2);
 	}
 
 	/**
@@ -395,6 +370,24 @@ public class TesttrackPackageImpl extends EPackageImpl implements TesttrackPacka
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public EReference getRoadComponent_LeftLane() {
+		return (EReference)roadComponentEClass.getEStructuralFeatures().get(1);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EReference getRoadComponent_RightLane() {
+		return (EReference)roadComponentEClass.getEStructuralFeatures().get(2);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public EClass getLane() {
 		return laneEClass;
 	}
@@ -404,7 +397,7 @@ public class TesttrackPackageImpl extends EPackageImpl implements TesttrackPacka
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getLane_ComesFrom() {
+	public EReference getLane_FromLanes() {
 		return (EReference)laneEClass.getEStructuralFeatures().get(0);
 	}
 
@@ -413,8 +406,17 @@ public class TesttrackPackageImpl extends EPackageImpl implements TesttrackPacka
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EReference getLane_LeadsTo() {
+	public EReference getLane_ToLanes() {
 		return (EReference)laneEClass.getEStructuralFeatures().get(1);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EAttribute getLane_Straight() {
+		return (EAttribute)laneEClass.getEStructuralFeatures().get(2);
 	}
 
 	/**
@@ -512,42 +514,6 @@ public class TesttrackPackageImpl extends EPackageImpl implements TesttrackPacka
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EClass getIntersection() {
-		return intersectionEClass;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EReference getIntersection_LanesIn() {
-		return (EReference)intersectionEClass.getEStructuralFeatures().get(0);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EReference getIntersection_LanesOut() {
-		return (EReference)intersectionEClass.getEStructuralFeatures().get(1);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public EAttribute getIntersection_Name() {
-		return (EAttribute)intersectionEClass.getEStructuralFeatures().get(2);
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	public EEnum getActorType() {
 		return actorTypeEEnum;
 	}
@@ -580,18 +546,17 @@ public class TesttrackPackageImpl extends EPackageImpl implements TesttrackPacka
 		isCreated = true;
 
 		// Create classes and their features
-		testTrackEClass = createEClass(TEST_TRACK);
-		createEAttribute(testTrackEClass, TEST_TRACK__NAME);
-		createEReference(testTrackEClass, TEST_TRACK__TRACKSEGMENTS);
-
 		scenarioEClass = createEClass(SCENARIO);
 		createEAttribute(scenarioEClass, SCENARIO__NAME);
 		createEReference(scenarioEClass, SCENARIO__ACTORS);
+		createEReference(scenarioEClass, SCENARIO__SUT);
 
 		roadSegmentEClass = createEClass(ROAD_SEGMENT);
 		createEReference(roadSegmentEClass, ROAD_SEGMENT__ROADCOMPONENTS);
 		createEReference(roadSegmentEClass, ROAD_SEGMENT__SIGNS);
 		createEAttribute(roadSegmentEClass, ROAD_SEGMENT__NAME);
+		createEReference(roadSegmentEClass, ROAD_SEGMENT__LEFT_NEIGHBOR_OF_NEIGHBOR);
+		createEReference(roadSegmentEClass, ROAD_SEGMENT__RIGHT_NEIGHBOR_OF_NEIGHBOR);
 
 		actorEClass = createEClass(ACTOR);
 		createEAttribute(actorEClass, ACTOR__TYPE);
@@ -600,16 +565,18 @@ public class TesttrackPackageImpl extends EPackageImpl implements TesttrackPacka
 
 		trackSegmentEClass = createEClass(TRACK_SEGMENT);
 		createEReference(trackSegmentEClass, TRACK_SEGMENT__ROADSEGMENTS);
-		createEReference(trackSegmentEClass, TRACK_SEGMENT__INTERSECTION);
 		createEAttribute(trackSegmentEClass, TRACK_SEGMENT__NAME);
 		createEReference(trackSegmentEClass, TRACK_SEGMENT__SCENARIOS);
 
 		roadComponentEClass = createEClass(ROAD_COMPONENT);
 		createEAttribute(roadComponentEClass, ROAD_COMPONENT__NAME);
+		createEReference(roadComponentEClass, ROAD_COMPONENT__LEFT_LANE);
+		createEReference(roadComponentEClass, ROAD_COMPONENT__RIGHT_LANE);
 
 		laneEClass = createEClass(LANE);
-		createEReference(laneEClass, LANE__COMES_FROM);
-		createEReference(laneEClass, LANE__LEADS_TO);
+		createEReference(laneEClass, LANE__FROM_LANES);
+		createEReference(laneEClass, LANE__TO_LANES);
+		createEAttribute(laneEClass, LANE__STRAIGHT);
 
 		sidewalkEClass = createEClass(SIDEWALK);
 
@@ -626,11 +593,6 @@ public class TesttrackPackageImpl extends EPackageImpl implements TesttrackPacka
 		stopSignEClass = createEClass(STOP_SIGN);
 
 		giveWaySignEClass = createEClass(GIVE_WAY_SIGN);
-
-		intersectionEClass = createEClass(INTERSECTION);
-		createEReference(intersectionEClass, INTERSECTION__LANES_IN);
-		createEReference(intersectionEClass, INTERSECTION__LANES_OUT);
-		createEAttribute(intersectionEClass, INTERSECTION__NAME);
 
 		// Create enums
 		actorTypeEEnum = createEEnum(ACTOR_TYPE);
@@ -671,36 +633,37 @@ public class TesttrackPackageImpl extends EPackageImpl implements TesttrackPacka
 		giveWaySignEClass.getESuperTypes().add(this.getSign());
 
 		// Initialize classes, features, and operations; add parameters
-		initEClass(testTrackEClass, TestTrack.class, "TestTrack", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-		initEAttribute(getTestTrack_Name(), ecorePackage.getEString(), "name", null, 0, 1, TestTrack.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEReference(getTestTrack_Tracksegments(), this.getTrackSegment(), null, "tracksegments", null, 0, -1, TestTrack.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-
 		initEClass(scenarioEClass, Scenario.class, "Scenario", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getScenario_Name(), ecorePackage.getEString(), "name", null, 0, 1, Scenario.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getScenario_Actors(), this.getActor(), null, "actors", null, 0, -1, Scenario.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getScenario_SUT(), this.getActor(), null, "SUT", null, 1, 1, Scenario.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(roadSegmentEClass, RoadSegment.class, "RoadSegment", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEReference(getRoadSegment_Roadcomponents(), this.getRoadComponent(), null, "roadcomponents", null, 0, -1, RoadSegment.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getRoadSegment_Signs(), this.getSign(), null, "signs", null, 0, -1, RoadSegment.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getRoadSegment_Name(), ecorePackage.getEString(), "name", null, 0, 1, RoadSegment.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getRoadSegment_LeftNeighborOfNeighbor(), this.getRoadSegment(), this.getRoadSegment_RightNeighborOfNeighbor(), "leftNeighborOfNeighbor", null, 0, 1, RoadSegment.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getRoadSegment_RightNeighborOfNeighbor(), this.getRoadSegment(), this.getRoadSegment_LeftNeighborOfNeighbor(), "rightNeighborOfNeighbor", null, 0, 1, RoadSegment.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(actorEClass, Actor.class, "Actor", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getActor_Type(), this.getActorType(), "type", null, 0, 1, Actor.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getActor_Name(), ecorePackage.getEString(), "name", null, 0, 1, Actor.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEReference(getActor_Action(), this.getAction(), null, "action", null, 0, -1, Actor.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getActor_Action(), this.getAction(), null, "action", null, 0, 1, Actor.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(trackSegmentEClass, TrackSegment.class, "TrackSegment", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEReference(getTrackSegment_Roadsegments(), this.getRoadSegment(), null, "roadsegments", null, 0, -1, TrackSegment.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEReference(getTrackSegment_Intersection(), this.getIntersection(), null, "intersection", null, 0, -1, TrackSegment.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEAttribute(getTrackSegment_Name(), ecorePackage.getEString(), "name", null, 0, 1, TrackSegment.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getTrackSegment_Scenarios(), this.getScenario(), null, "scenarios", null, 0, -1, TrackSegment.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(roadComponentEClass, RoadComponent.class, "RoadComponent", IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getRoadComponent_Name(), ecorePackage.getEString(), "name", null, 0, 1, RoadComponent.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getRoadComponent_LeftLane(), this.getRoadComponent(), this.getRoadComponent_RightLane(), "leftLane", null, 0, 1, RoadComponent.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getRoadComponent_RightLane(), this.getRoadComponent(), this.getRoadComponent_LeftLane(), "rightLane", null, 0, 1, RoadComponent.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(laneEClass, Lane.class, "Lane", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-		initEReference(getLane_ComesFrom(), this.getLane(), this.getLane_LeadsTo(), "comesFrom", null, 0, 1, Lane.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEReference(getLane_LeadsTo(), this.getLane(), this.getLane_ComesFrom(), "leadsTo", null, 0, 1, Lane.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getLane_FromLanes(), this.getLane(), this.getLane_ToLanes(), "fromLanes", null, 0, -1, Lane.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getLane_ToLanes(), this.getLane(), this.getLane_FromLanes(), "toLanes", null, 0, -1, Lane.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getLane_Straight(), ecorePackage.getEBoolean(), "straight", "true", 0, 1, Lane.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(sidewalkEClass, Sidewalk.class, "Sidewalk", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 
@@ -717,11 +680,6 @@ public class TesttrackPackageImpl extends EPackageImpl implements TesttrackPacka
 		initEClass(stopSignEClass, StopSign.class, "StopSign", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 
 		initEClass(giveWaySignEClass, GiveWaySign.class, "GiveWaySign", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-
-		initEClass(intersectionEClass, Intersection.class, "Intersection", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-		initEReference(getIntersection_LanesIn(), this.getLane(), null, "lanesIn", null, 0, -1, Intersection.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEReference(getIntersection_LanesOut(), this.getLane(), null, "lanesOut", null, 0, -1, Intersection.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-		initEAttribute(getIntersection_Name(), ecorePackage.getEString(), "name", null, 0, 1, Intersection.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		// Initialize enums and add enum literals
 		initEEnum(actorTypeEEnum, ActorType.class, "ActorType");

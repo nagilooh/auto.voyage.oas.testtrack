@@ -32,6 +32,7 @@ import org.eclipse.emf.ecore.util.InternalEList;
  * <ul>
  *   <li>{@link auto.voyage.oas.testtrack.impl.ScenarioImpl#getName <em>Name</em>}</li>
  *   <li>{@link auto.voyage.oas.testtrack.impl.ScenarioImpl#getActors <em>Actors</em>}</li>
+ *   <li>{@link auto.voyage.oas.testtrack.impl.ScenarioImpl#getSUT <em>SUT</em>}</li>
  * </ul>
  *
  * @generated
@@ -66,6 +67,16 @@ public class ScenarioImpl extends MinimalEObjectImpl.Container implements Scenar
 	 * @ordered
 	 */
 	protected EList<Actor> actors;
+
+	/**
+	 * The cached value of the '{@link #getSUT() <em>SUT</em>}' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #getSUT()
+	 * @generated
+	 * @ordered
+	 */
+	protected Actor sut;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -124,6 +135,44 @@ public class ScenarioImpl extends MinimalEObjectImpl.Container implements Scenar
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public Actor getSUT() {
+		if (sut != null && sut.eIsProxy()) {
+			InternalEObject oldSUT = (InternalEObject)sut;
+			sut = (Actor)eResolveProxy(oldSUT);
+			if (sut != oldSUT) {
+				if (eNotificationRequired())
+					eNotify(new ENotificationImpl(this, Notification.RESOLVE, TesttrackPackage.SCENARIO__SUT, oldSUT, sut));
+			}
+		}
+		return sut;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public Actor basicGetSUT() {
+		return sut;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public void setSUT(Actor newSUT) {
+		Actor oldSUT = sut;
+		sut = newSUT;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, TesttrackPackage.SCENARIO__SUT, oldSUT, sut));
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	@Override
 	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
@@ -145,6 +194,9 @@ public class ScenarioImpl extends MinimalEObjectImpl.Container implements Scenar
 				return getName();
 			case TesttrackPackage.SCENARIO__ACTORS:
 				return getActors();
+			case TesttrackPackage.SCENARIO__SUT:
+				if (resolve) return getSUT();
+				return basicGetSUT();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -165,6 +217,9 @@ public class ScenarioImpl extends MinimalEObjectImpl.Container implements Scenar
 				getActors().clear();
 				getActors().addAll((Collection<? extends Actor>)newValue);
 				return;
+			case TesttrackPackage.SCENARIO__SUT:
+				setSUT((Actor)newValue);
+				return;
 		}
 		super.eSet(featureID, newValue);
 	}
@@ -183,6 +238,9 @@ public class ScenarioImpl extends MinimalEObjectImpl.Container implements Scenar
 			case TesttrackPackage.SCENARIO__ACTORS:
 				getActors().clear();
 				return;
+			case TesttrackPackage.SCENARIO__SUT:
+				setSUT((Actor)null);
+				return;
 		}
 		super.eUnset(featureID);
 	}
@@ -199,6 +257,8 @@ public class ScenarioImpl extends MinimalEObjectImpl.Container implements Scenar
 				return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
 			case TesttrackPackage.SCENARIO__ACTORS:
 				return actors != null && !actors.isEmpty();
+			case TesttrackPackage.SCENARIO__SUT:
+				return sut != null;
 		}
 		return super.eIsSet(featureID);
 	}

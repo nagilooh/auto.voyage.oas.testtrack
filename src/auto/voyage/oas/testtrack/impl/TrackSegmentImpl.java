@@ -2,7 +2,6 @@
  */
 package auto.voyage.oas.testtrack.impl;
 
-import auto.voyage.oas.testtrack.Intersection;
 import auto.voyage.oas.testtrack.RoadSegment;
 import auto.voyage.oas.testtrack.Scenario;
 import auto.voyage.oas.testtrack.TesttrackPackage;
@@ -33,7 +32,6 @@ import org.eclipse.emf.ecore.util.InternalEList;
  * </p>
  * <ul>
  *   <li>{@link auto.voyage.oas.testtrack.impl.TrackSegmentImpl#getRoadsegments <em>Roadsegments</em>}</li>
- *   <li>{@link auto.voyage.oas.testtrack.impl.TrackSegmentImpl#getIntersection <em>Intersection</em>}</li>
  *   <li>{@link auto.voyage.oas.testtrack.impl.TrackSegmentImpl#getName <em>Name</em>}</li>
  *   <li>{@link auto.voyage.oas.testtrack.impl.TrackSegmentImpl#getScenarios <em>Scenarios</em>}</li>
  * </ul>
@@ -50,16 +48,6 @@ public class TrackSegmentImpl extends MinimalEObjectImpl.Container implements Tr
 	 * @ordered
 	 */
 	protected EList<RoadSegment> roadsegments;
-
-	/**
-	 * The cached value of the '{@link #getIntersection() <em>Intersection</em>}' containment reference list.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #getIntersection()
-	 * @generated
-	 * @ordered
-	 */
-	protected EList<Intersection> intersection;
 
 	/**
 	 * The default value of the '{@link #getName() <em>Name</em>}' attribute.
@@ -127,18 +115,6 @@ public class TrackSegmentImpl extends MinimalEObjectImpl.Container implements Tr
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EList<Intersection> getIntersection() {
-		if (intersection == null) {
-			intersection = new EObjectContainmentEList<Intersection>(Intersection.class, this, TesttrackPackage.TRACK_SEGMENT__INTERSECTION);
-		}
-		return intersection;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	public String getName() {
 		return name;
 	}
@@ -177,8 +153,6 @@ public class TrackSegmentImpl extends MinimalEObjectImpl.Container implements Tr
 		switch (featureID) {
 			case TesttrackPackage.TRACK_SEGMENT__ROADSEGMENTS:
 				return ((InternalEList<?>)getRoadsegments()).basicRemove(otherEnd, msgs);
-			case TesttrackPackage.TRACK_SEGMENT__INTERSECTION:
-				return ((InternalEList<?>)getIntersection()).basicRemove(otherEnd, msgs);
 			case TesttrackPackage.TRACK_SEGMENT__SCENARIOS:
 				return ((InternalEList<?>)getScenarios()).basicRemove(otherEnd, msgs);
 		}
@@ -195,8 +169,6 @@ public class TrackSegmentImpl extends MinimalEObjectImpl.Container implements Tr
 		switch (featureID) {
 			case TesttrackPackage.TRACK_SEGMENT__ROADSEGMENTS:
 				return getRoadsegments();
-			case TesttrackPackage.TRACK_SEGMENT__INTERSECTION:
-				return getIntersection();
 			case TesttrackPackage.TRACK_SEGMENT__NAME:
 				return getName();
 			case TesttrackPackage.TRACK_SEGMENT__SCENARIOS:
@@ -217,10 +189,6 @@ public class TrackSegmentImpl extends MinimalEObjectImpl.Container implements Tr
 			case TesttrackPackage.TRACK_SEGMENT__ROADSEGMENTS:
 				getRoadsegments().clear();
 				getRoadsegments().addAll((Collection<? extends RoadSegment>)newValue);
-				return;
-			case TesttrackPackage.TRACK_SEGMENT__INTERSECTION:
-				getIntersection().clear();
-				getIntersection().addAll((Collection<? extends Intersection>)newValue);
 				return;
 			case TesttrackPackage.TRACK_SEGMENT__NAME:
 				setName((String)newValue);
@@ -244,9 +212,6 @@ public class TrackSegmentImpl extends MinimalEObjectImpl.Container implements Tr
 			case TesttrackPackage.TRACK_SEGMENT__ROADSEGMENTS:
 				getRoadsegments().clear();
 				return;
-			case TesttrackPackage.TRACK_SEGMENT__INTERSECTION:
-				getIntersection().clear();
-				return;
 			case TesttrackPackage.TRACK_SEGMENT__NAME:
 				setName(NAME_EDEFAULT);
 				return;
@@ -267,8 +232,6 @@ public class TrackSegmentImpl extends MinimalEObjectImpl.Container implements Tr
 		switch (featureID) {
 			case TesttrackPackage.TRACK_SEGMENT__ROADSEGMENTS:
 				return roadsegments != null && !roadsegments.isEmpty();
-			case TesttrackPackage.TRACK_SEGMENT__INTERSECTION:
-				return intersection != null && !intersection.isEmpty();
 			case TesttrackPackage.TRACK_SEGMENT__NAME:
 				return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
 			case TesttrackPackage.TRACK_SEGMENT__SCENARIOS:

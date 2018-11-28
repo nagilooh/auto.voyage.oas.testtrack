@@ -22,15 +22,6 @@ public interface TesttrackFactory extends EFactory {
 	TesttrackFactory eINSTANCE = auto.voyage.oas.testtrack.impl.TesttrackFactoryImpl.init();
 
 	/**
-	 * Returns a new object of class '<em>Test Track</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Test Track</em>'.
-	 * @generated
-	 */
-	TestTrack createTestTrack();
-
-	/**
 	 * Returns a new object of class '<em>Scenario</em>'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -119,15 +110,6 @@ public interface TesttrackFactory extends EFactory {
 	 * @generated
 	 */
 	GiveWaySign createGiveWaySign();
-
-	/**
-	 * Returns a new object of class '<em>Intersection</em>'.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @return a new object of class '<em>Intersection</em>'.
-	 * @generated
-	 */
-	Intersection createIntersection();
 
 	/**
 	 * Returns the package supported by this factory.

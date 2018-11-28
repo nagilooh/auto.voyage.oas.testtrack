@@ -2,8 +2,6 @@
  */
 package auto.voyage.oas.testtrack;
 
-import org.eclipse.emf.common.util.EList;
-
 import org.eclipse.emf.ecore.EObject;
 
 /**
@@ -81,19 +79,29 @@ public interface Actor extends EObject {
 	void setName(String value);
 
 	/**
-	 * Returns the value of the '<em><b>Action</b></em>' containment reference list.
-	 * The list contents are of type {@link auto.voyage.oas.testtrack.Action}.
+	 * Returns the value of the '<em><b>Action</b></em>' containment reference.
 	 * <!-- begin-user-doc -->
 	 * <p>
-	 * If the meaning of the '<em>Action</em>' containment reference list isn't clear,
+	 * If the meaning of the '<em>Action</em>' containment reference isn't clear,
 	 * there really should be more of a description here...
 	 * </p>
 	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Action</em>' containment reference list.
+	 * @return the value of the '<em>Action</em>' containment reference.
+	 * @see #setAction(Action)
 	 * @see auto.voyage.oas.testtrack.TesttrackPackage#getActor_Action()
 	 * @model containment="true"
 	 * @generated
 	 */
-	EList<Action> getAction();
+	Action getAction();
+
+	/**
+	 * Sets the value of the '{@link auto.voyage.oas.testtrack.Actor#getAction <em>Action</em>}' containment reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Action</em>' containment reference.
+	 * @see #getAction()
+	 * @generated
+	 */
+	void setAction(Action value);
 
 } // Actor

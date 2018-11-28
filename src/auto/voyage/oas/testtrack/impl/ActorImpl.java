@@ -7,21 +7,14 @@ import auto.voyage.oas.testtrack.Actor;
 import auto.voyage.oas.testtrack.ActorType;
 import auto.voyage.oas.testtrack.TesttrackPackage;
 
-import java.util.Collection;
-
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
-
-import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
-
-import org.eclipse.emf.ecore.util.EObjectContainmentEList;
-import org.eclipse.emf.ecore.util.InternalEList;
 
 /**
  * <!-- begin-user-doc -->
@@ -80,14 +73,14 @@ public class ActorImpl extends MinimalEObjectImpl.Container implements Actor {
 	protected String name = NAME_EDEFAULT;
 
 	/**
-	 * The cached value of the '{@link #getAction() <em>Action</em>}' containment reference list.
+	 * The cached value of the '{@link #getAction() <em>Action</em>}' containment reference.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @see #getAction()
 	 * @generated
 	 * @ordered
 	 */
-	protected EList<Action> action;
+	protected Action action;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -155,11 +148,42 @@ public class ActorImpl extends MinimalEObjectImpl.Container implements Actor {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public EList<Action> getAction() {
-		if (action == null) {
-			action = new EObjectContainmentEList<Action>(Action.class, this, TesttrackPackage.ACTOR__ACTION);
-		}
+	public Action getAction() {
 		return action;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public NotificationChain basicSetAction(Action newAction, NotificationChain msgs) {
+		Action oldAction = action;
+		action = newAction;
+		if (eNotificationRequired()) {
+			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, TesttrackPackage.ACTOR__ACTION, oldAction, newAction);
+			if (msgs == null) msgs = notification; else msgs.add(notification);
+		}
+		return msgs;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public void setAction(Action newAction) {
+		if (newAction != action) {
+			NotificationChain msgs = null;
+			if (action != null)
+				msgs = ((InternalEObject)action).eInverseRemove(this, EOPPOSITE_FEATURE_BASE - TesttrackPackage.ACTOR__ACTION, null, msgs);
+			if (newAction != null)
+				msgs = ((InternalEObject)newAction).eInverseAdd(this, EOPPOSITE_FEATURE_BASE - TesttrackPackage.ACTOR__ACTION, null, msgs);
+			msgs = basicSetAction(newAction, msgs);
+			if (msgs != null) msgs.dispatch();
+		}
+		else if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, TesttrackPackage.ACTOR__ACTION, newAction, newAction));
 	}
 
 	/**
@@ -171,7 +195,7 @@ public class ActorImpl extends MinimalEObjectImpl.Container implements Actor {
 	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case TesttrackPackage.ACTOR__ACTION:
-				return ((InternalEList<?>)getAction()).basicRemove(otherEnd, msgs);
+				return basicSetAction(null, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -199,7 +223,6 @@ public class ActorImpl extends MinimalEObjectImpl.Container implements Actor {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	@SuppressWarnings("unchecked")
 	@Override
 	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
@@ -210,8 +233,7 @@ public class ActorImpl extends MinimalEObjectImpl.Container implements Actor {
 				setName((String)newValue);
 				return;
 			case TesttrackPackage.ACTOR__ACTION:
-				getAction().clear();
-				getAction().addAll((Collection<? extends Action>)newValue);
+				setAction((Action)newValue);
 				return;
 		}
 		super.eSet(featureID, newValue);
@@ -232,7 +254,7 @@ public class ActorImpl extends MinimalEObjectImpl.Container implements Actor {
 				setName(NAME_EDEFAULT);
 				return;
 			case TesttrackPackage.ACTOR__ACTION:
-				getAction().clear();
+				setAction((Action)null);
 				return;
 		}
 		super.eUnset(featureID);
@@ -251,7 +273,7 @@ public class ActorImpl extends MinimalEObjectImpl.Container implements Actor {
 			case TesttrackPackage.ACTOR__NAME:
 				return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
 			case TesttrackPackage.ACTOR__ACTION:
-				return action != null && !action.isEmpty();
+				return action != null;
 		}
 		return super.eIsSet(featureID);
 	}

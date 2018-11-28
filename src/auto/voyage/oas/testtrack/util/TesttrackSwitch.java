@@ -66,12 +66,6 @@ public class TesttrackSwitch<T> extends Switch<T> {
 	@Override
 	protected T doSwitch(int classifierID, EObject theEObject) {
 		switch (classifierID) {
-			case TesttrackPackage.TEST_TRACK: {
-				TestTrack testTrack = (TestTrack)theEObject;
-				T result = caseTestTrack(testTrack);
-				if (result == null) result = defaultCase(theEObject);
-				return result;
-			}
 			case TesttrackPackage.SCENARIO: {
 				Scenario scenario = (Scenario)theEObject;
 				T result = caseScenario(scenario);
@@ -149,29 +143,8 @@ public class TesttrackSwitch<T> extends Switch<T> {
 				if (result == null) result = defaultCase(theEObject);
 				return result;
 			}
-			case TesttrackPackage.INTERSECTION: {
-				Intersection intersection = (Intersection)theEObject;
-				T result = caseIntersection(intersection);
-				if (result == null) result = defaultCase(theEObject);
-				return result;
-			}
 			default: return defaultCase(theEObject);
 		}
-	}
-
-	/**
-	 * Returns the result of interpreting the object as an instance of '<em>Test Track</em>'.
-	 * <!-- begin-user-doc -->
-	 * This implementation returns null;
-	 * returning a non-null result will terminate the switch.
-	 * <!-- end-user-doc -->
-	 * @param object the target of the switch.
-	 * @return the result of interpreting the object as an instance of '<em>Test Track</em>'.
-	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
-	 * @generated
-	 */
-	public T caseTestTrack(TestTrack object) {
-		return null;
 	}
 
 	/**
@@ -351,21 +324,6 @@ public class TesttrackSwitch<T> extends Switch<T> {
 	 * @generated
 	 */
 	public T caseGiveWaySign(GiveWaySign object) {
-		return null;
-	}
-
-	/**
-	 * Returns the result of interpreting the object as an instance of '<em>Intersection</em>'.
-	 * <!-- begin-user-doc -->
-	 * This implementation returns null;
-	 * returning a non-null result will terminate the switch.
-	 * <!-- end-user-doc -->
-	 * @param object the target of the switch.
-	 * @return the result of interpreting the object as an instance of '<em>Intersection</em>'.
-	 * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
-	 * @generated
-	 */
-	public T caseIntersection(Intersection object) {
 		return null;
 	}
 

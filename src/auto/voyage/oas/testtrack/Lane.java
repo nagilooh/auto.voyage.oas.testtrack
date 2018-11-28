@@ -2,6 +2,7 @@
  */
 package auto.voyage.oas.testtrack;
 
+import org.eclipse.emf.common.util.EList;
 
 /**
  * <!-- begin-user-doc -->
@@ -12,8 +13,9 @@ package auto.voyage.oas.testtrack;
  * The following features are supported:
  * </p>
  * <ul>
- *   <li>{@link auto.voyage.oas.testtrack.Lane#getComesFrom <em>Comes From</em>}</li>
- *   <li>{@link auto.voyage.oas.testtrack.Lane#getLeadsTo <em>Leads To</em>}</li>
+ *   <li>{@link auto.voyage.oas.testtrack.Lane#getFromLanes <em>From Lanes</em>}</li>
+ *   <li>{@link auto.voyage.oas.testtrack.Lane#getToLanes <em>To Lanes</em>}</li>
+ *   <li>{@link auto.voyage.oas.testtrack.Lane#isStraight <em>Straight</em>}</li>
  * </ul>
  *
  * @see auto.voyage.oas.testtrack.TesttrackPackage#getLane()
@@ -22,59 +24,66 @@ package auto.voyage.oas.testtrack;
  */
 public interface Lane extends RoadComponent {
 	/**
-	 * Returns the value of the '<em><b>Comes From</b></em>' reference.
-	 * It is bidirectional and its opposite is '{@link auto.voyage.oas.testtrack.Lane#getLeadsTo <em>Leads To</em>}'.
+	 * Returns the value of the '<em><b>From Lanes</b></em>' reference list.
+	 * The list contents are of type {@link auto.voyage.oas.testtrack.Lane}.
+	 * It is bidirectional and its opposite is '{@link auto.voyage.oas.testtrack.Lane#getToLanes <em>To Lanes</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <p>
-	 * If the meaning of the '<em>Comes From</em>' reference isn't clear,
+	 * If the meaning of the '<em>From Lanes</em>' reference list isn't clear,
 	 * there really should be more of a description here...
 	 * </p>
 	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Comes From</em>' reference.
-	 * @see #setComesFrom(Lane)
-	 * @see auto.voyage.oas.testtrack.TesttrackPackage#getLane_ComesFrom()
-	 * @see auto.voyage.oas.testtrack.Lane#getLeadsTo
-	 * @model opposite="leadsTo"
+	 * @return the value of the '<em>From Lanes</em>' reference list.
+	 * @see auto.voyage.oas.testtrack.TesttrackPackage#getLane_FromLanes()
+	 * @see auto.voyage.oas.testtrack.Lane#getToLanes
+	 * @model opposite="toLanes"
 	 * @generated
 	 */
-	Lane getComesFrom();
+	EList<Lane> getFromLanes();
 
 	/**
-	 * Sets the value of the '{@link auto.voyage.oas.testtrack.Lane#getComesFrom <em>Comes From</em>}' reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Comes From</em>' reference.
-	 * @see #getComesFrom()
-	 * @generated
-	 */
-	void setComesFrom(Lane value);
-
-	/**
-	 * Returns the value of the '<em><b>Leads To</b></em>' reference.
-	 * It is bidirectional and its opposite is '{@link auto.voyage.oas.testtrack.Lane#getComesFrom <em>Comes From</em>}'.
+	 * Returns the value of the '<em><b>To Lanes</b></em>' reference list.
+	 * The list contents are of type {@link auto.voyage.oas.testtrack.Lane}.
+	 * It is bidirectional and its opposite is '{@link auto.voyage.oas.testtrack.Lane#getFromLanes <em>From Lanes</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <p>
-	 * If the meaning of the '<em>Leads To</em>' reference isn't clear,
+	 * If the meaning of the '<em>To Lanes</em>' reference list isn't clear,
 	 * there really should be more of a description here...
 	 * </p>
 	 * <!-- end-user-doc -->
-	 * @return the value of the '<em>Leads To</em>' reference.
-	 * @see #setLeadsTo(Lane)
-	 * @see auto.voyage.oas.testtrack.TesttrackPackage#getLane_LeadsTo()
-	 * @see auto.voyage.oas.testtrack.Lane#getComesFrom
-	 * @model opposite="comesFrom"
+	 * @return the value of the '<em>To Lanes</em>' reference list.
+	 * @see auto.voyage.oas.testtrack.TesttrackPackage#getLane_ToLanes()
+	 * @see auto.voyage.oas.testtrack.Lane#getFromLanes
+	 * @model opposite="fromLanes"
 	 * @generated
 	 */
-	Lane getLeadsTo();
+	EList<Lane> getToLanes();
 
 	/**
-	 * Sets the value of the '{@link auto.voyage.oas.testtrack.Lane#getLeadsTo <em>Leads To</em>}' reference.
+	 * Returns the value of the '<em><b>Straight</b></em>' attribute.
+	 * The default value is <code>"true"</code>.
 	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Straight</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
 	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Leads To</em>' reference.
-	 * @see #getLeadsTo()
+	 * @return the value of the '<em>Straight</em>' attribute.
+	 * @see #setStraight(boolean)
+	 * @see auto.voyage.oas.testtrack.TesttrackPackage#getLane_Straight()
+	 * @model default="true"
 	 * @generated
 	 */
-	void setLeadsTo(Lane value);
+	boolean isStraight();
+
+	/**
+	 * Sets the value of the '{@link auto.voyage.oas.testtrack.Lane#isStraight <em>Straight</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Straight</em>' attribute.
+	 * @see #isStraight()
+	 * @generated
+	 */
+	void setStraight(boolean value);
 
 } // Lane

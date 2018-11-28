@@ -57,7 +57,6 @@ public class TesttrackFactoryImpl extends EFactoryImpl implements TesttrackFacto
 	@Override
 	public EObject create(EClass eClass) {
 		switch (eClass.getClassifierID()) {
-			case TesttrackPackage.TEST_TRACK: return createTestTrack();
 			case TesttrackPackage.SCENARIO: return createScenario();
 			case TesttrackPackage.ROAD_SEGMENT: return createRoadSegment();
 			case TesttrackPackage.ACTOR: return createActor();
@@ -68,7 +67,6 @@ public class TesttrackFactoryImpl extends EFactoryImpl implements TesttrackFacto
 			case TesttrackPackage.CROSSWALK: return createCrosswalk();
 			case TesttrackPackage.STOP_SIGN: return createStopSign();
 			case TesttrackPackage.GIVE_WAY_SIGN: return createGiveWaySign();
-			case TesttrackPackage.INTERSECTION: return createIntersection();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
 		}
@@ -102,16 +100,6 @@ public class TesttrackFactoryImpl extends EFactoryImpl implements TesttrackFacto
 			default:
 				throw new IllegalArgumentException("The datatype '" + eDataType.getName() + "' is not a valid classifier");
 		}
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public TestTrack createTestTrack() {
-		TestTrackImpl testTrack = new TestTrackImpl();
-		return testTrack;
 	}
 
 	/**
@@ -212,16 +200,6 @@ public class TesttrackFactoryImpl extends EFactoryImpl implements TesttrackFacto
 	public GiveWaySign createGiveWaySign() {
 		GiveWaySignImpl giveWaySign = new GiveWaySignImpl();
 		return giveWaySign;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public Intersection createIntersection() {
-		IntersectionImpl intersection = new IntersectionImpl();
-		return intersection;
 	}
 
 	/**

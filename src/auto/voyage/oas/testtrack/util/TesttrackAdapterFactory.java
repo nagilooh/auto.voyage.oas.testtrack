@@ -68,10 +68,6 @@ public class TesttrackAdapterFactory extends AdapterFactoryImpl {
 	protected TesttrackSwitch<Adapter> modelSwitch =
 		new TesttrackSwitch<Adapter>() {
 			@Override
-			public Adapter caseTestTrack(TestTrack object) {
-				return createTestTrackAdapter();
-			}
-			@Override
 			public Adapter caseScenario(Scenario object) {
 				return createScenarioAdapter();
 			}
@@ -120,10 +116,6 @@ public class TesttrackAdapterFactory extends AdapterFactoryImpl {
 				return createGiveWaySignAdapter();
 			}
 			@Override
-			public Adapter caseIntersection(Intersection object) {
-				return createIntersectionAdapter();
-			}
-			@Override
 			public Adapter defaultCase(EObject object) {
 				return createEObjectAdapter();
 			}
@@ -142,20 +134,6 @@ public class TesttrackAdapterFactory extends AdapterFactoryImpl {
 		return modelSwitch.doSwitch((EObject)target);
 	}
 
-
-	/**
-	 * Creates a new adapter for an object of class '{@link auto.voyage.oas.testtrack.TestTrack <em>Test Track</em>}'.
-	 * <!-- begin-user-doc -->
-	 * This default implementation returns null so that we can easily ignore cases;
-	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
-	 * <!-- end-user-doc -->
-	 * @return the new adapter.
-	 * @see auto.voyage.oas.testtrack.TestTrack
-	 * @generated
-	 */
-	public Adapter createTestTrackAdapter() {
-		return null;
-	}
 
 	/**
 	 * Creates a new adapter for an object of class '{@link auto.voyage.oas.testtrack.Scenario <em>Scenario</em>}'.
@@ -322,20 +300,6 @@ public class TesttrackAdapterFactory extends AdapterFactoryImpl {
 	 * @generated
 	 */
 	public Adapter createGiveWaySignAdapter() {
-		return null;
-	}
-
-	/**
-	 * Creates a new adapter for an object of class '{@link auto.voyage.oas.testtrack.Intersection <em>Intersection</em>}'.
-	 * <!-- begin-user-doc -->
-	 * This default implementation returns null so that we can easily ignore cases;
-	 * it's useful to ignore a case when inheritance will catch all the cases anyway.
-	 * <!-- end-user-doc -->
-	 * @return the new adapter.
-	 * @see auto.voyage.oas.testtrack.Intersection
-	 * @generated
-	 */
-	public Adapter createIntersectionAdapter() {
 		return null;
 	}
 

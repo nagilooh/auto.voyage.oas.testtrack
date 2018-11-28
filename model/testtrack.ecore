@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="testtrack" nsURI="http://www.example.org/testtrack" nsPrefix="testtrack">
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="testtrack" nsURI="https://github.com/nagilooh/auto.voyage.oas.testtrack"
+    nsPrefix="testtrack">
   <eClassifiers xsi:type="ecore:EClass" name="Scenario">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="actors" upperBound="-1"
         eType="#//Actor" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="sut" lowerBound="1" eType="#//Actor"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SUT" lowerBound="1" eType="#//Actor"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="RoadSegment">
     <eStructuralFeatures xsi:type="ecore:EReference" name="roadcomponents" upperBound="-1"
@@ -41,6 +42,10 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="RoadComponent" abstract="true">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="leftLane" eType="#//RoadComponent"
+        eOpposite="#//RoadComponent/rightLane"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rightLane" eType="#//RoadComponent"
+        eOpposite="#//RoadComponent/leftLane"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Lane" eSuperTypes="#//RoadComponent">
     <eStructuralFeatures xsi:type="ecore:EReference" name="fromLanes" upperBound="-1"
@@ -49,10 +54,6 @@
         eType="#//Lane" eOpposite="#//Lane/fromLanes"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="straight" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean"
         defaultValueLiteral="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="rightLane" eType="#//Lane"
-        eOpposite="#//Lane/leftLane"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="leftLane" eType="#//Lane"
-        eOpposite="#//Lane/rightLane"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Sidewalk" eSuperTypes="#//RoadComponent"/>
   <eClassifiers xsi:type="ecore:EClass" name="Action">

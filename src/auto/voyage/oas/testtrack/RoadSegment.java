@@ -18,6 +18,8 @@ import org.eclipse.emf.ecore.EObject;
  *   <li>{@link auto.voyage.oas.testtrack.RoadSegment#getRoadcomponents <em>Roadcomponents</em>}</li>
  *   <li>{@link auto.voyage.oas.testtrack.RoadSegment#getSigns <em>Signs</em>}</li>
  *   <li>{@link auto.voyage.oas.testtrack.RoadSegment#getName <em>Name</em>}</li>
+ *   <li>{@link auto.voyage.oas.testtrack.RoadSegment#getLeftNeighborOfNeighbor <em>Left Neighbor Of Neighbor</em>}</li>
+ *   <li>{@link auto.voyage.oas.testtrack.RoadSegment#getRightNeighborOfNeighbor <em>Right Neighbor Of Neighbor</em>}</li>
  * </ul>
  *
  * @see auto.voyage.oas.testtrack.TesttrackPackage#getRoadSegment()
@@ -82,5 +84,61 @@ public interface RoadSegment extends EObject {
 	 * @generated
 	 */
 	void setName(String value);
+
+	/**
+	 * Returns the value of the '<em><b>Left Neighbor Of Neighbor</b></em>' reference.
+	 * It is bidirectional and its opposite is '{@link auto.voyage.oas.testtrack.RoadSegment#getRightNeighborOfNeighbor <em>Right Neighbor Of Neighbor</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Left Neighbor Of Neighbor</em>' reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Left Neighbor Of Neighbor</em>' reference.
+	 * @see #setLeftNeighborOfNeighbor(RoadSegment)
+	 * @see auto.voyage.oas.testtrack.TesttrackPackage#getRoadSegment_LeftNeighborOfNeighbor()
+	 * @see auto.voyage.oas.testtrack.RoadSegment#getRightNeighborOfNeighbor
+	 * @model opposite="rightNeighborOfNeighbor"
+	 * @generated
+	 */
+	RoadSegment getLeftNeighborOfNeighbor();
+
+	/**
+	 * Sets the value of the '{@link auto.voyage.oas.testtrack.RoadSegment#getLeftNeighborOfNeighbor <em>Left Neighbor Of Neighbor</em>}' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Left Neighbor Of Neighbor</em>' reference.
+	 * @see #getLeftNeighborOfNeighbor()
+	 * @generated
+	 */
+	void setLeftNeighborOfNeighbor(RoadSegment value);
+
+	/**
+	 * Returns the value of the '<em><b>Right Neighbor Of Neighbor</b></em>' reference.
+	 * It is bidirectional and its opposite is '{@link auto.voyage.oas.testtrack.RoadSegment#getLeftNeighborOfNeighbor <em>Left Neighbor Of Neighbor</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Right Neighbor Of Neighbor</em>' reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Right Neighbor Of Neighbor</em>' reference.
+	 * @see #setRightNeighborOfNeighbor(RoadSegment)
+	 * @see auto.voyage.oas.testtrack.TesttrackPackage#getRoadSegment_RightNeighborOfNeighbor()
+	 * @see auto.voyage.oas.testtrack.RoadSegment#getLeftNeighborOfNeighbor
+	 * @model opposite="leftNeighborOfNeighbor"
+	 * @generated
+	 */
+	RoadSegment getRightNeighborOfNeighbor();
+
+	/**
+	 * Sets the value of the '{@link auto.voyage.oas.testtrack.RoadSegment#getRightNeighborOfNeighbor <em>Right Neighbor Of Neighbor</em>}' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Right Neighbor Of Neighbor</em>' reference.
+	 * @see #getRightNeighborOfNeighbor()
+	 * @generated
+	 */
+	void setRightNeighborOfNeighbor(RoadSegment value);
 
 } // RoadSegment

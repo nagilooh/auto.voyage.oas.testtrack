@@ -5,13 +5,20 @@ package auto.voyage.oas.testtrack.impl;
 import auto.voyage.oas.testtrack.Lane;
 import auto.voyage.oas.testtrack.TesttrackPackage;
 
+import java.util.Collection;
+
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
+
+import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
+
+import org.eclipse.emf.ecore.util.EObjectWithInverseResolvingEList;
+import org.eclipse.emf.ecore.util.InternalEList;
 
 /**
  * <!-- begin-user-doc -->
@@ -21,32 +28,53 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
  * The following features are implemented:
  * </p>
  * <ul>
- *   <li>{@link auto.voyage.oas.testtrack.impl.LaneImpl#getComesFrom <em>Comes From</em>}</li>
- *   <li>{@link auto.voyage.oas.testtrack.impl.LaneImpl#getLeadsTo <em>Leads To</em>}</li>
+ *   <li>{@link auto.voyage.oas.testtrack.impl.LaneImpl#getFromLanes <em>From Lanes</em>}</li>
+ *   <li>{@link auto.voyage.oas.testtrack.impl.LaneImpl#getToLanes <em>To Lanes</em>}</li>
+ *   <li>{@link auto.voyage.oas.testtrack.impl.LaneImpl#isStraight <em>Straight</em>}</li>
  * </ul>
  *
  * @generated
  */
 public class LaneImpl extends RoadComponentImpl implements Lane {
 	/**
-	 * The cached value of the '{@link #getComesFrom() <em>Comes From</em>}' reference.
+	 * The cached value of the '{@link #getFromLanes() <em>From Lanes</em>}' reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see #getComesFrom()
+	 * @see #getFromLanes()
 	 * @generated
 	 * @ordered
 	 */
-	protected Lane comesFrom;
+	protected EList<Lane> fromLanes;
 
 	/**
-	 * The cached value of the '{@link #getLeadsTo() <em>Leads To</em>}' reference.
+	 * The cached value of the '{@link #getToLanes() <em>To Lanes</em>}' reference list.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
-	 * @see #getLeadsTo()
+	 * @see #getToLanes()
 	 * @generated
 	 * @ordered
 	 */
-	protected Lane leadsTo;
+	protected EList<Lane> toLanes;
+
+	/**
+	 * The default value of the '{@link #isStraight() <em>Straight</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #isStraight()
+	 * @generated
+	 * @ordered
+	 */
+	protected static final boolean STRAIGHT_EDEFAULT = true;
+
+	/**
+	 * The cached value of the '{@link #isStraight() <em>Straight</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #isStraight()
+	 * @generated
+	 * @ordered
+	 */
+	protected boolean straight = STRAIGHT_EDEFAULT;
 
 	/**
 	 * <!-- begin-user-doc -->
@@ -72,16 +100,11 @@ public class LaneImpl extends RoadComponentImpl implements Lane {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Lane getComesFrom() {
-		if (comesFrom != null && comesFrom.eIsProxy()) {
-			InternalEObject oldComesFrom = (InternalEObject)comesFrom;
-			comesFrom = (Lane)eResolveProxy(oldComesFrom);
-			if (comesFrom != oldComesFrom) {
-				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE, TesttrackPackage.LANE__COMES_FROM, oldComesFrom, comesFrom));
-			}
+	public EList<Lane> getFromLanes() {
+		if (fromLanes == null) {
+			fromLanes = new EObjectWithInverseResolvingEList.ManyInverse<Lane>(Lane.class, this, TesttrackPackage.LANE__FROM_LANES, TesttrackPackage.LANE__TO_LANES);
 		}
-		return comesFrom;
+		return fromLanes;
 	}
 
 	/**
@@ -89,23 +112,11 @@ public class LaneImpl extends RoadComponentImpl implements Lane {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Lane basicGetComesFrom() {
-		return comesFrom;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public NotificationChain basicSetComesFrom(Lane newComesFrom, NotificationChain msgs) {
-		Lane oldComesFrom = comesFrom;
-		comesFrom = newComesFrom;
-		if (eNotificationRequired()) {
-			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, TesttrackPackage.LANE__COMES_FROM, oldComesFrom, newComesFrom);
-			if (msgs == null) msgs = notification; else msgs.add(notification);
+	public EList<Lane> getToLanes() {
+		if (toLanes == null) {
+			toLanes = new EObjectWithInverseResolvingEList.ManyInverse<Lane>(Lane.class, this, TesttrackPackage.LANE__TO_LANES, TesttrackPackage.LANE__FROM_LANES);
 		}
-		return msgs;
+		return toLanes;
 	}
 
 	/**
@@ -113,18 +124,8 @@ public class LaneImpl extends RoadComponentImpl implements Lane {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public void setComesFrom(Lane newComesFrom) {
-		if (newComesFrom != comesFrom) {
-			NotificationChain msgs = null;
-			if (comesFrom != null)
-				msgs = ((InternalEObject)comesFrom).eInverseRemove(this, TesttrackPackage.LANE__LEADS_TO, Lane.class, msgs);
-			if (newComesFrom != null)
-				msgs = ((InternalEObject)newComesFrom).eInverseAdd(this, TesttrackPackage.LANE__LEADS_TO, Lane.class, msgs);
-			msgs = basicSetComesFrom(newComesFrom, msgs);
-			if (msgs != null) msgs.dispatch();
-		}
-		else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, TesttrackPackage.LANE__COMES_FROM, newComesFrom, newComesFrom));
+	public boolean isStraight() {
+		return straight;
 	}
 
 	/**
@@ -132,16 +133,11 @@ public class LaneImpl extends RoadComponentImpl implements Lane {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Lane getLeadsTo() {
-		if (leadsTo != null && leadsTo.eIsProxy()) {
-			InternalEObject oldLeadsTo = (InternalEObject)leadsTo;
-			leadsTo = (Lane)eResolveProxy(oldLeadsTo);
-			if (leadsTo != oldLeadsTo) {
-				if (eNotificationRequired())
-					eNotify(new ENotificationImpl(this, Notification.RESOLVE, TesttrackPackage.LANE__LEADS_TO, oldLeadsTo, leadsTo));
-			}
-		}
-		return leadsTo;
+	public void setStraight(boolean newStraight) {
+		boolean oldStraight = straight;
+		straight = newStraight;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, TesttrackPackage.LANE__STRAIGHT, oldStraight, straight));
 	}
 
 	/**
@@ -149,60 +145,14 @@ public class LaneImpl extends RoadComponentImpl implements Lane {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public Lane basicGetLeadsTo() {
-		return leadsTo;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public NotificationChain basicSetLeadsTo(Lane newLeadsTo, NotificationChain msgs) {
-		Lane oldLeadsTo = leadsTo;
-		leadsTo = newLeadsTo;
-		if (eNotificationRequired()) {
-			ENotificationImpl notification = new ENotificationImpl(this, Notification.SET, TesttrackPackage.LANE__LEADS_TO, oldLeadsTo, newLeadsTo);
-			if (msgs == null) msgs = notification; else msgs.add(notification);
-		}
-		return msgs;
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setLeadsTo(Lane newLeadsTo) {
-		if (newLeadsTo != leadsTo) {
-			NotificationChain msgs = null;
-			if (leadsTo != null)
-				msgs = ((InternalEObject)leadsTo).eInverseRemove(this, TesttrackPackage.LANE__COMES_FROM, Lane.class, msgs);
-			if (newLeadsTo != null)
-				msgs = ((InternalEObject)newLeadsTo).eInverseAdd(this, TesttrackPackage.LANE__COMES_FROM, Lane.class, msgs);
-			msgs = basicSetLeadsTo(newLeadsTo, msgs);
-			if (msgs != null) msgs.dispatch();
-		}
-		else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, TesttrackPackage.LANE__LEADS_TO, newLeadsTo, newLeadsTo));
-	}
-
-	/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
+	@SuppressWarnings("unchecked")
 	@Override
 	public NotificationChain eInverseAdd(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
-			case TesttrackPackage.LANE__COMES_FROM:
-				if (comesFrom != null)
-					msgs = ((InternalEObject)comesFrom).eInverseRemove(this, TesttrackPackage.LANE__LEADS_TO, Lane.class, msgs);
-				return basicSetComesFrom((Lane)otherEnd, msgs);
-			case TesttrackPackage.LANE__LEADS_TO:
-				if (leadsTo != null)
-					msgs = ((InternalEObject)leadsTo).eInverseRemove(this, TesttrackPackage.LANE__COMES_FROM, Lane.class, msgs);
-				return basicSetLeadsTo((Lane)otherEnd, msgs);
+			case TesttrackPackage.LANE__FROM_LANES:
+				return ((InternalEList<InternalEObject>)(InternalEList<?>)getFromLanes()).basicAdd(otherEnd, msgs);
+			case TesttrackPackage.LANE__TO_LANES:
+				return ((InternalEList<InternalEObject>)(InternalEList<?>)getToLanes()).basicAdd(otherEnd, msgs);
 		}
 		return super.eInverseAdd(otherEnd, featureID, msgs);
 	}
@@ -215,10 +165,10 @@ public class LaneImpl extends RoadComponentImpl implements Lane {
 	@Override
 	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
-			case TesttrackPackage.LANE__COMES_FROM:
-				return basicSetComesFrom(null, msgs);
-			case TesttrackPackage.LANE__LEADS_TO:
-				return basicSetLeadsTo(null, msgs);
+			case TesttrackPackage.LANE__FROM_LANES:
+				return ((InternalEList<?>)getFromLanes()).basicRemove(otherEnd, msgs);
+			case TesttrackPackage.LANE__TO_LANES:
+				return ((InternalEList<?>)getToLanes()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -231,12 +181,12 @@ public class LaneImpl extends RoadComponentImpl implements Lane {
 	@Override
 	public Object eGet(int featureID, boolean resolve, boolean coreType) {
 		switch (featureID) {
-			case TesttrackPackage.LANE__COMES_FROM:
-				if (resolve) return getComesFrom();
-				return basicGetComesFrom();
-			case TesttrackPackage.LANE__LEADS_TO:
-				if (resolve) return getLeadsTo();
-				return basicGetLeadsTo();
+			case TesttrackPackage.LANE__FROM_LANES:
+				return getFromLanes();
+			case TesttrackPackage.LANE__TO_LANES:
+				return getToLanes();
+			case TesttrackPackage.LANE__STRAIGHT:
+				return isStraight();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -246,14 +196,20 @@ public class LaneImpl extends RoadComponentImpl implements Lane {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@SuppressWarnings("unchecked")
 	@Override
 	public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
-			case TesttrackPackage.LANE__COMES_FROM:
-				setComesFrom((Lane)newValue);
+			case TesttrackPackage.LANE__FROM_LANES:
+				getFromLanes().clear();
+				getFromLanes().addAll((Collection<? extends Lane>)newValue);
 				return;
-			case TesttrackPackage.LANE__LEADS_TO:
-				setLeadsTo((Lane)newValue);
+			case TesttrackPackage.LANE__TO_LANES:
+				getToLanes().clear();
+				getToLanes().addAll((Collection<? extends Lane>)newValue);
+				return;
+			case TesttrackPackage.LANE__STRAIGHT:
+				setStraight((Boolean)newValue);
 				return;
 		}
 		super.eSet(featureID, newValue);
@@ -267,11 +223,14 @@ public class LaneImpl extends RoadComponentImpl implements Lane {
 	@Override
 	public void eUnset(int featureID) {
 		switch (featureID) {
-			case TesttrackPackage.LANE__COMES_FROM:
-				setComesFrom((Lane)null);
+			case TesttrackPackage.LANE__FROM_LANES:
+				getFromLanes().clear();
 				return;
-			case TesttrackPackage.LANE__LEADS_TO:
-				setLeadsTo((Lane)null);
+			case TesttrackPackage.LANE__TO_LANES:
+				getToLanes().clear();
+				return;
+			case TesttrackPackage.LANE__STRAIGHT:
+				setStraight(STRAIGHT_EDEFAULT);
 				return;
 		}
 		super.eUnset(featureID);
@@ -285,12 +244,30 @@ public class LaneImpl extends RoadComponentImpl implements Lane {
 	@Override
 	public boolean eIsSet(int featureID) {
 		switch (featureID) {
-			case TesttrackPackage.LANE__COMES_FROM:
-				return comesFrom != null;
-			case TesttrackPackage.LANE__LEADS_TO:
-				return leadsTo != null;
+			case TesttrackPackage.LANE__FROM_LANES:
+				return fromLanes != null && !fromLanes.isEmpty();
+			case TesttrackPackage.LANE__TO_LANES:
+				return toLanes != null && !toLanes.isEmpty();
+			case TesttrackPackage.LANE__STRAIGHT:
+				return straight != STRAIGHT_EDEFAULT;
 		}
 		return super.eIsSet(featureID);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public String toString() {
+		if (eIsProxy()) return super.toString();
+
+		StringBuilder result = new StringBuilder(super.toString());
+		result.append(" (straight: ");
+		result.append(straight);
+		result.append(')');
+		return result.toString();
 	}
 
 } //LaneImpl

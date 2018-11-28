@@ -17,6 +17,7 @@ import org.eclipse.emf.ecore.EObject;
  * <ul>
  *   <li>{@link auto.voyage.oas.testtrack.Scenario#getName <em>Name</em>}</li>
  *   <li>{@link auto.voyage.oas.testtrack.Scenario#getActors <em>Actors</em>}</li>
+ *   <li>{@link auto.voyage.oas.testtrack.Scenario#getSUT <em>SUT</em>}</li>
  * </ul>
  *
  * @see auto.voyage.oas.testtrack.TesttrackPackage#getScenario()
@@ -65,5 +66,31 @@ public interface Scenario extends EObject {
 	 * @generated
 	 */
 	EList<Actor> getActors();
+
+	/**
+	 * Returns the value of the '<em><b>SUT</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>SUT</em>' reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>SUT</em>' reference.
+	 * @see #setSUT(Actor)
+	 * @see auto.voyage.oas.testtrack.TesttrackPackage#getScenario_SUT()
+	 * @model required="true"
+	 * @generated
+	 */
+	Actor getSUT();
+
+	/**
+	 * Sets the value of the '{@link auto.voyage.oas.testtrack.Scenario#getSUT <em>SUT</em>}' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>SUT</em>' reference.
+	 * @see #getSUT()
+	 * @generated
+	 */
+	void setSUT(Actor value);
 
 } // Scenario

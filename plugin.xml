@@ -9,7 +9,7 @@
    <extension point="org.eclipse.emf.ecore.generated_package">
       <!-- @generated testtrack -->
       <package
-            uri="http://www.example.org/testtrack"
+            uri="https://github.com/nagilooh/auto.voyage.oas.testtrack"
             class="auto.voyage.oas.testtrack.TesttrackPackage"
             genModel="model/testtrack.genmodel"/>
    </extension>
