@@ -55,6 +55,7 @@
     </genClasses>
     <genClasses ecoreClass="testtrack.ecore#//Sign">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute testtrack.ecore#//Sign/name"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference testtrack.ecore#//Sign/forRoadComponent"/>
     </genClasses>
     <genClasses ecoreClass="testtrack.ecore#//Crosswalk"/>
     <genClasses ecoreClass="testtrack.ecore#//StopSign"/>

@@ -5,22 +5,22 @@
     <roadcomponents xsi:type="testtrack:Lane" name="West2" rightLane="//@roadsegments.0/@roadcomponents.3" fromLanes="//@roadsegments.3/@roadcomponents.3 //@roadsegments.3/@roadcomponents.5"/>
     <roadcomponents xsi:type="testtrack:Sidewalk" name="west1" leftLane="//@roadsegments.0/@roadcomponents.0"/>
     <roadcomponents xsi:type="testtrack:Sidewalk" name="west2" leftLane="//@roadsegments.0/@roadcomponents.1"/>
-    <signs xsi:type="testtrack:StopSign" name="Stop sign"/>
-    <signs xsi:type="testtrack:Crosswalk" name="Crosswalk"/>
+    <signs xsi:type="testtrack:StopSign" name="Stop sign" forRoadComponent="//@roadsegments.0/@roadcomponents.0"/>
+    <signs xsi:type="testtrack:Crosswalk" name="Crosswalk" forRoadComponent="//@roadsegments.0/@roadcomponents.0 //@roadsegments.0/@roadcomponents.1"/>
   </roadsegments>
   <roadsegments name="South" leftNeighborOfNeighbor="//@roadsegments.0" rightNeighborOfNeighbor="//@roadsegments.2">
-    <roadcomponents xsi:type="testtrack:Lane" name="South1" toLanes="//@roadsegments.3/@roadcomponents.2 //@roadsegments.3/@roadcomponents.3"/>
-    <roadcomponents xsi:type="testtrack:Lane" name="South2" fromLanes="//@roadsegments.3/@roadcomponents.0 //@roadsegments.3/@roadcomponents.4"/>
-    <roadcomponents xsi:type="testtrack:Sidewalk" name="south1"/>
-    <roadcomponents xsi:type="testtrack:Sidewalk" name="south2"/>
-    <signs xsi:type="testtrack:Crosswalk" name="Crosswalk"/>
+    <roadcomponents xsi:type="testtrack:Lane" name="South1" rightLane="//@roadsegments.1/@roadcomponents.2" toLanes="//@roadsegments.3/@roadcomponents.2 //@roadsegments.3/@roadcomponents.3"/>
+    <roadcomponents xsi:type="testtrack:Lane" name="South2" rightLane="//@roadsegments.1/@roadcomponents.3" fromLanes="//@roadsegments.3/@roadcomponents.0 //@roadsegments.3/@roadcomponents.4"/>
+    <roadcomponents xsi:type="testtrack:Sidewalk" name="south1" leftLane="//@roadsegments.1/@roadcomponents.0"/>
+    <roadcomponents xsi:type="testtrack:Sidewalk" name="south2" leftLane="//@roadsegments.1/@roadcomponents.1"/>
+    <signs xsi:type="testtrack:Crosswalk" name="Crosswalk" forRoadComponent="//@roadsegments.1/@roadcomponents.0 //@roadsegments.1/@roadcomponents.1"/>
   </roadsegments>
   <roadsegments name="North" leftNeighborOfNeighbor="//@roadsegments.1" rightNeighborOfNeighbor="//@roadsegments.0">
-    <roadcomponents xsi:type="testtrack:Lane" name="North1" toLanes="//@roadsegments.3/@roadcomponents.4 //@roadsegments.3/@roadcomponents.5"/>
-    <roadcomponents xsi:type="testtrack:Lane" name="North2" fromLanes="//@roadsegments.3/@roadcomponents.1 //@roadsegments.3/@roadcomponents.2"/>
-    <roadcomponents xsi:type="testtrack:Sidewalk" name="north1"/>
-    <roadcomponents xsi:type="testtrack:Sidewalk" name="north2"/>
-    <signs xsi:type="testtrack:Crosswalk" name="Crosswalk"/>
+    <roadcomponents xsi:type="testtrack:Lane" name="North1" rightLane="//@roadsegments.2/@roadcomponents.2" toLanes="//@roadsegments.3/@roadcomponents.4 //@roadsegments.3/@roadcomponents.5"/>
+    <roadcomponents xsi:type="testtrack:Lane" name="North2" rightLane="//@roadsegments.2/@roadcomponents.3" fromLanes="//@roadsegments.3/@roadcomponents.1 //@roadsegments.3/@roadcomponents.2"/>
+    <roadcomponents xsi:type="testtrack:Sidewalk" name="north1" leftLane="//@roadsegments.2/@roadcomponents.0"/>
+    <roadcomponents xsi:type="testtrack:Sidewalk" name="north2" leftLane="//@roadsegments.2/@roadcomponents.1"/>
+    <signs xsi:type="testtrack:Crosswalk" name="Crosswalk" forRoadComponent="//@roadsegments.2/@roadcomponents.0 //@roadsegments.2/@roadcomponents.1"/>
   </roadsegments>
   <roadsegments name="Intersection">
     <roadcomponents xsi:type="testtrack:Lane" name="w1-s2" fromLanes="//@roadsegments.0/@roadcomponents.0" toLanes="//@roadsegments.1/@roadcomponents.1"/>
@@ -30,7 +30,7 @@
     <roadcomponents xsi:type="testtrack:Lane" name="n1-s2" fromLanes="//@roadsegments.2/@roadcomponents.0" toLanes="//@roadsegments.1/@roadcomponents.1"/>
     <roadcomponents xsi:type="testtrack:Lane" name="n1-w2" fromLanes="//@roadsegments.2/@roadcomponents.0" toLanes="//@roadsegments.0/@roadcomponents.1"/>
   </roadsegments>
-  <scenarios name="3-2-W-I-L-CAR:N>S">
+  <scenarios name="3-2-W-I-L-CAR:N>S" SUT="//@scenarios.0/@actors.0">
     <actors name="SUT">
       <action startPosition="//@roadsegments.0/@roadcomponents.0" endPosition="//@roadsegments.2/@roadcomponents.1" name="SUT turns left"/>
     </actors>

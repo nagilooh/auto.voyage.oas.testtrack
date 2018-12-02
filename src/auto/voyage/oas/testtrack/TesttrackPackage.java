@@ -562,13 +562,22 @@ public interface TesttrackPackage extends EPackage {
 	int SIGN__NAME = 0;
 
 	/**
+	 * The feature id for the '<em><b>For Road Component</b></em>' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int SIGN__FOR_ROAD_COMPONENT = 1;
+
+	/**
 	 * The number of structural features of the '<em>Sign</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int SIGN_FEATURE_COUNT = 1;
+	int SIGN_FEATURE_COUNT = 2;
 
 	/**
 	 * The number of operations of the '<em>Sign</em>' class.
@@ -597,6 +606,15 @@ public interface TesttrackPackage extends EPackage {
 	 * @ordered
 	 */
 	int CROSSWALK__NAME = SIGN__NAME;
+
+	/**
+	 * The feature id for the '<em><b>For Road Component</b></em>' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int CROSSWALK__FOR_ROAD_COMPONENT = SIGN__FOR_ROAD_COMPONENT;
 
 	/**
 	 * The number of structural features of the '<em>Crosswalk</em>' class.
@@ -636,6 +654,15 @@ public interface TesttrackPackage extends EPackage {
 	int STOP_SIGN__NAME = SIGN__NAME;
 
 	/**
+	 * The feature id for the '<em><b>For Road Component</b></em>' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int STOP_SIGN__FOR_ROAD_COMPONENT = SIGN__FOR_ROAD_COMPONENT;
+
+	/**
 	 * The number of structural features of the '<em>Stop Sign</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -671,6 +698,15 @@ public interface TesttrackPackage extends EPackage {
 	 * @ordered
 	 */
 	int GIVE_WAY_SIGN__NAME = SIGN__NAME;
+
+	/**
+	 * The feature id for the '<em><b>For Road Component</b></em>' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int GIVE_WAY_SIGN__FOR_ROAD_COMPONENT = SIGN__FOR_ROAD_COMPONENT;
 
 	/**
 	 * The number of structural features of the '<em>Give Way Sign</em>' class.
@@ -1056,6 +1092,17 @@ public interface TesttrackPackage extends EPackage {
 	EAttribute getSign_Name();
 
 	/**
+	 * Returns the meta object for the reference list '{@link auto.voyage.oas.testtrack.Sign#getForRoadComponent <em>For Road Component</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>For Road Component</em>'.
+	 * @see auto.voyage.oas.testtrack.Sign#getForRoadComponent()
+	 * @see #getSign()
+	 * @generated
+	 */
+	EReference getSign_ForRoadComponent();
+
+	/**
 	 * Returns the meta object for class '{@link auto.voyage.oas.testtrack.Crosswalk <em>Crosswalk</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -1399,6 +1446,14 @@ public interface TesttrackPackage extends EPackage {
 		 * @generated
 		 */
 		EAttribute SIGN__NAME = eINSTANCE.getSign_Name();
+
+		/**
+		 * The meta object literal for the '<em><b>For Road Component</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference SIGN__FOR_ROAD_COMPONENT = eINSTANCE.getSign_ForRoadComponent();
 
 		/**
 		 * The meta object literal for the '{@link auto.voyage.oas.testtrack.impl.CrosswalkImpl <em>Crosswalk</em>}' class.

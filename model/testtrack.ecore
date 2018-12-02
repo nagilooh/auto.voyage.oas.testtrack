@@ -63,6 +63,8 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Sign" abstract="true">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="forRoadComponent" upperBound="-1"
+        eType="#//RoadComponent"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Crosswalk" eSuperTypes="#//Sign"/>
   <eClassifiers xsi:type="ecore:EClass" name="StopSign" eSuperTypes="#//Sign"/>

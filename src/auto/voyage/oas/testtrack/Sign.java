@@ -2,6 +2,7 @@
  */
 package auto.voyage.oas.testtrack;
 
+import org.eclipse.emf.common.util.EList;
 import org.eclipse.emf.ecore.EObject;
 
 /**
@@ -14,6 +15,7 @@ import org.eclipse.emf.ecore.EObject;
  * </p>
  * <ul>
  *   <li>{@link auto.voyage.oas.testtrack.Sign#getName <em>Name</em>}</li>
+ *   <li>{@link auto.voyage.oas.testtrack.Sign#getForRoadComponent <em>For Road Component</em>}</li>
  * </ul>
  *
  * @see auto.voyage.oas.testtrack.TesttrackPackage#getSign()
@@ -46,5 +48,21 @@ public interface Sign extends EObject {
 	 * @generated
 	 */
 	void setName(String value);
+
+	/**
+	 * Returns the value of the '<em><b>For Road Component</b></em>' reference list.
+	 * The list contents are of type {@link auto.voyage.oas.testtrack.RoadComponent}.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>For Road Component</em>' reference isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>For Road Component</em>' reference list.
+	 * @see auto.voyage.oas.testtrack.TesttrackPackage#getSign_ForRoadComponent()
+	 * @model
+	 * @generated
+	 */
+	EList<RoadComponent> getForRoadComponent();
 
 } // Sign

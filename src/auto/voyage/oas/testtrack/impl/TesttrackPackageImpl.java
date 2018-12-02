@@ -487,6 +487,15 @@ public class TesttrackPackageImpl extends EPackageImpl implements TesttrackPacka
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	public EReference getSign_ForRoadComponent() {
+		return (EReference)signEClass.getEStructuralFeatures().get(1);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	public EClass getCrosswalk() {
 		return crosswalkEClass;
 	}
@@ -587,6 +596,7 @@ public class TesttrackPackageImpl extends EPackageImpl implements TesttrackPacka
 
 		signEClass = createEClass(SIGN);
 		createEAttribute(signEClass, SIGN__NAME);
+		createEReference(signEClass, SIGN__FOR_ROAD_COMPONENT);
 
 		crosswalkEClass = createEClass(CROSSWALK);
 
@@ -674,6 +684,7 @@ public class TesttrackPackageImpl extends EPackageImpl implements TesttrackPacka
 
 		initEClass(signEClass, Sign.class, "Sign", IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getSign_Name(), ecorePackage.getEString(), "name", null, 0, 1, Sign.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getSign_ForRoadComponent(), this.getRoadComponent(), null, "forRoadComponent", null, 0, -1, Sign.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(crosswalkEClass, Crosswalk.class, "Crosswalk", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 
